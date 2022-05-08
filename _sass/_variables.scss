@@ -31,6 +31,18 @@ $grey-900:            #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Custom Colors for light mode
+$dorange-custom-color:          #D27230 !default;
+$lorange-custom-color:          lighten($dorange-custom-color, 10%);
+$gray-custom-color:             #F6F6F6 !default;
+$dblue-custom-color:           #333C54  !default;
+$dred-custom-color:            #411F26 !default;
+
+$grey-color-dark:     #878581!default;
+$grey-color:          lighten($grey-color-dark, 20%);
+$grey-color-light:    lighten($grey-color-dark, 40%);
+
+
 
 // Theme colors
 
