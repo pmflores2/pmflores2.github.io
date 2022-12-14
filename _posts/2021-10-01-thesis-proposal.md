@@ -4,7 +4,7 @@ title: Relativistic time of arrival operators
 date: 2021-10-01
 description: thesis proposal
 tags: news presentation
-categories: 
+category: time-of-arrival
 comments: true
 
 ---

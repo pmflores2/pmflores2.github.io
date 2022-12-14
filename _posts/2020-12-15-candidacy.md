@@ -4,20 +4,11 @@ title: "Problem of time: from standard quantum mechanics to quantum gravity"
 date: 2020-12-18
 description: candicacy exam
 tags: news presentation
-categories: 
+categories:
 comments: true
 ---
 
-<div class="iframe-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/RPk-MZjZiDg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<style>
-  .iframe-container {
-		text-align:center;
-  		width:100%;
-  }
-</style>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RPk-MZjZiDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 My candidacy exam was held online via zoom last December 15, 2020. For those interested, you can download my slides [here]({{ '/assets/pdf/presentation.pdf' | relative_url }}). The goal of this talk was to present how time is a fundamental problem in physics by discussing the different problems of time that arise in the context of different theories.  
 
