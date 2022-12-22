@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-12-22T16:50:46+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-12-22T17:11:42+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">The quantum tunneling time problem</title><link href="http://localhost:4000/blog/2022/defense/" rel="alternate" type="text/html" title="The quantum tunneling time problem" /><published>2022-12-10T00:00:00+08:00</published><updated>2022-12-10T00:00:00+08:00</updated><id>http://localhost:4000/blog/2022/defense</id><content type="html" xml:base="http://localhost:4000/blog/2022/defense/"><![CDATA[<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="/assets/img/defense1.jpg" alt="" />
     </div>
 </div>
 <div class="caption">
-    I forgot to set the camera to speaker only while recording so the slides were covered by the Panel Members in the entire video lol.
+    I forgot to set the camera to speaker only while recording so the slides were covered by the Panel Members in the entire video.
 </div>
 
 <p>My Dissertation is entitled <code class="language-plaintext highlighter-rouge">Theory of quantized relativistic time-of-arrival operators for spin-0 particles and its application in the quantum tunneling time problem</code>, and the Doctoral Examination was held online via Zoom last December 5, 2022. Here are my <a href="/assets/pdf/slides.pdf">slides</a> for those who are interested.</p>
