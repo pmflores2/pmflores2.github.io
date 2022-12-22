@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: my collection
 nav: true
 display_categories: [thesis]
 horizontal: false

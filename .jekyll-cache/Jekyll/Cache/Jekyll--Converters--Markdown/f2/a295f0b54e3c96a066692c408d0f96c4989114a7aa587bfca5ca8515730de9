@@ -1,4 +1,4 @@
-I"mS<!-- _pages/publications.md -->
+I"�S<!-- _pages/publications.md -->
 <h2><i>journal articles</i></h2>
 
 <div class="publications">
@@ -6,6 +6,39 @@
 
   <!-- <h3 class="year">2022</h3> -->
   <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">EPL</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="caesar2022instantaneous" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Instantaneous tunneling of relativistic massive spin-0 particles</div>
+          <!-- Author -->
+          <div class="author">Flores, Philip Caesar,&nbsp;and <a href="https://scholar.google.com.ph/citations?user=ZCazejsAAAAJ&amp;hl=en&amp;oi=ao">Galapon, Eric A</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Europhysics Letters</em> 2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://iopscience.iop.org/article/10.1209/0295-5075/acad9a" class="btn btn-sm z-depth-0" role="button">HTML</a>
+            <a href="/assets/pdf/rel_tunnel.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The tunneling time problem earlier studied in Phys. Rev. Lett. 108, 170402 (2012) using a non-relativistic time-of-arrival (TOA) operator predicted that tunneling time is instantaneous implying that the wavepacket becomes superluminal below the barrier. The non-relativistic treatment raises the question whether the superluminal behavior is a mere non-relativistic phenomenon or an an inherent quantum effect in all energy scales. Here we extend the analysis by constructing a relativistic TOA-operator for spin-0 particles across a square potential barrier by quantizing the corresponding classical quantity, and imposing that the barrier height Vo is less than the rest mass energy. We show that only the above barrier energy components of the incident wavepacket’s momentum distribution contribute to the barrier traversal time while the below barrier components are transmitted instantaneously. </p>
+          </div>
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">PhysRevA</abbr></div>
 
@@ -130,39 +163,6 @@
 
   <!-- <h3 class="year">2022</h3> -->
   <ol class="bibliography"><li><!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="caesar2022instantaneous" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">Instantaneous tunneling of relativistic massive spin-0 particles</div>
-          <!-- Author -->
-          <div class="author">Flores, Philip Caesar,&nbsp;and <a href="https://scholar.google.com.ph/citations?user=ZCazejsAAAAJ&amp;hl=en&amp;oi=ao">Galapon, Eric A</a>
-                  
-          </div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>arXiv e-prints</em> 2022
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://arxiv.org/abs/2207.09040" class="btn btn-sm z-depth-0" role="button">HTML</a>
-            <a href="/assets/pdf/rel_tunnel.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>The tunneling time problem earlier studied in Phys. Rev. Lett. 108, 170402 (2012) using a non-relativistic time-of-arrival (TOA) operator predicted that tunneling time is instantaneous implying that the wavepacket becomes superluminal below the barrier. The non-relativistic treatment raises the question whether the superluminal behavior is a mere non-relativistic phenomenon or an an inherent quantum effect in all energy scales. Here we extend the analysis by constructing a relativistic TOA-operator for spin-0 particles across a square potential barrier by quantizing the corresponding classical quantity, and imposing that the barrier height Vo is less than the rest mass energy. We show that only the above barrier energy components of the incident wavepacket’s momentum distribution contribute to the barrier traversal time while the below barrier components are transmitted instantaneously. </p>
-          </div>
-        </div>
-      </div>
-</li>
-<li><!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
 
