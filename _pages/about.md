@@ -19,9 +19,9 @@ social: true  # includes social icons at the bottom of the page
 
 I studied at the [National Institute of Physics](http://nip.upd.edu.ph/), [University of the Philippines Diliman](https://upd.edu.ph/) where I obtained my BS (2017), MS (2019), and PhD (2023) degrees under the supervision of [Eric A. Galapon, PhD](http://nip.upd.edu.ph/profiles/eric-a-galapon/). My research is on `quantum time of arrival operators` which were used to investigate the quantum violation of the weak equivalence principle, and the tunneling time problem. You can download my CV [here]({{ '/assets/pdf/My_CV_v2.pdf' | relative_url }}) for more details.  
 
-The primary purpose of this blog is to hopefully help me `organize my thoughts` while doing research. By doing so, I hope to gain a `better understanding` of the very same topics I am writing about, e.g. explainers of some papers and topics that I find interesting so feel free to check out my [blog](/blog/) and write a comment. 
+The primary purpose of this blog is to hopefully help me `organize my thoughts` while doing research. By doing so, I hope to gain a `better understanding` of the very same topics I am writing about, so feel free to check out my [blog](/blog/) and write a comment. 
 
-Aside from physics, my interests include watching `movies` and `anime`, reading `manga`, playing computer `games`, and customizing `gunpla` (gundam plastic models).
+Aside from physics, my interests include watching `movies` and `anime`, reading `manga`, playing computer `games`, and customizing `gunpla` (gundam plastic models). I am also a big fan of DotA 2!
 
 
 <!-- I am currently a physics PhD candidate at the [University of the Philippines Diliman](https://upd.edu.ph/) and a member of the [Theoretical Physics Group](https://niptheorygroup.wordpress.com/) under the supervision of [Eric A. Galapon, PhD](http://nip.upd.edu.ph/profiles/eric-a-galapon/). I obtained my BS and MS degrees in 2017 and 2019, respectively, doing research on `quantum time of arrival`. You can download my CV [here]({{ '/assets/pdf/My_CV_v2.pdf' | relative_url }}).
