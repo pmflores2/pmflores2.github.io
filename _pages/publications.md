@@ -6,6 +6,19 @@ description: publications by categories in reversed chronological order. generat
 years: [2023, 2022, 2019, 2018, 2017, 2016, 2015]
 nav: true
 ---
+
+<h2><i>preprints</i></h2>
+
+<div class="publications">
+
+{% for y in page.years %}
+  <!-- <h3 class="year">{{y}}</h3> -->
+  {% bibliography -f preprints -q @*[year={{y}}]* %}
+{% endfor %}
+
+</div>
+
+
 <!-- _pages/publications.md -->
 <h2><i>journal articles</i></h2>
 
@@ -18,17 +31,6 @@ nav: true
 
 </div>
 
-
-<h2><i>preprints</i></h2>
-
-<div class="publications">
-
-{% for y in page.years %}
-  <!-- <h3 class="year">{{y}}</h3> -->
-  {% bibliography -f preprints -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div>
 
 
 <h2><i>conference proceedings</i></h2>
