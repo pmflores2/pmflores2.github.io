@@ -7,10 +7,10 @@ subtitle: <i> "Study hard what interests you the most in the most undisciplined,
 profile:
   align: right
   image: my_pic.jpg
-  #address: >
-    #<p>555 your office number</p>
-    #<p>123 your address street</p>
-    #<p>Your City, State 12345</p>
+  address: >
+    <p>Strongfield Theory Group</p>
+    <p>Building B, 2.26</p>
+    <p>Max Born Institute</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
