@@ -1,4 +1,4 @@
-I"_<h2><i>preprints</i></h2>
+I"_<h2><i>preprints</i></h2>
 
 <div class="publications">
 
@@ -136,7 +136,7 @@
   <!-- <h3 class="year">2022</h3> -->
   <ol class="bibliography"><li><!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">PhysRevA</abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">PRA</abbr></div>
 
         <!-- Entry bib key -->
         <div id="flores2022relativistic" class="col-sm-8">
@@ -171,7 +171,7 @@
   <!-- <h3 class="year">2019</h3> -->
   <ol class="bibliography"><li><!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">PhysRevA</abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">PRA</abbr></div>
 
         <!-- Entry bib key -->
         <div id="flores2019quantum" class="col-sm-8">
@@ -213,7 +213,7 @@
   <!-- <h3 class="year">2016</h3> -->
   <ol class="bibliography"><li><!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">PhysRevA</abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">PRA</abbr></div>
 
         <!-- Entry bib key -->
         <div id="flores2016synchronizing" class="col-sm-8">
