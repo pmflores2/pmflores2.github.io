@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: my collection
 nav: true
-display_categories: [thesis]
+display_categories: [thesis , other]
 horizontal: false
 ---
 
