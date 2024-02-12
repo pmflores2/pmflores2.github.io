@@ -1,4 +1,4 @@
-I"|
+I"x
 <!-- pages/projects.md -->
 <div class="projects">
   <!-- Display categorized projects -->
@@ -7,7 +7,7 @@
   <div class="grid"><!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/projects/res_97_phd_thesis/">
+  <a href="/projects/res03_phd_thesis/">
       <div class="card hoverable"><figure>
 
   <picture>
@@ -29,7 +29,7 @@
 </div><!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/projects/res_98_masters_thesis/">
+  <a href="/projects/res02_masters_thesis/">
       <div class="card hoverable"><figure>
 
   <picture>
@@ -51,7 +51,7 @@
 </div><!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/projects/res_99_undergrad_thesis/">
+  <a href="/projects/res01_undergrad_thesis/">
       <div class="card hoverable"><figure>
 
   <picture>
@@ -77,7 +77,7 @@
   <div class="grid"><!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/projects/other_99_podcast/">
+  <a href="/projects/other01_podcast/">
       <div class="card hoverable"><figure>
 
   <picture>
