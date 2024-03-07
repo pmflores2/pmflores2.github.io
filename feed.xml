@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://pmflores2.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pmflores2.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-03-08T00:58:54+01:00</updated><id>https://pmflores2.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">The quantum tunneling time problem</title><link href="https://pmflores2.github.io/blog/2022/defense/" rel="alternate" type="text/html" title="The quantum tunneling time problem" /><published>2022-12-10T00:00:00+01:00</published><updated>2022-12-10T00:00:00+01:00</updated><id>https://pmflores2.github.io/blog/2022/defense</id><content type="html" xml:base="https://pmflores2.github.io/blog/2022/defense/"><![CDATA[<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/defense1.jpg" alt="" />
+    </div>
+</div>
+<div class="caption">
+    I forgot to set the camera to speaker only while recording so the slides were covered by the Panel Members in the entire video.
+</div>
+
+<p>My Dissertation is entitled <code class="language-plaintext highlighter-rouge">Theory of quantized relativistic time-of-arrival operators for spin-0 particles and its application in the quantum tunneling time problem</code>, and the Doctoral Examination was held online via Zoom last December 5, 2022. Here are my <a href="/assets/pdf/slides.pdf">slides</a> for those who are interested.</p>
+
+<p>Tunneling is one of the most well known quantum effects and has been a long standing important subject of quantum mechanics. However, tunneling becomes problematic when one associates the time it takes a wavepacket to traverse the classically forbidden region, i.e. the quantum tunneling time problem (TTP). It is further complicated because it is compounded with the quantum time problem, and superluminality. Standard quantum mechanics only treats time as a parameter, as such, the TTP may be ill-defined because there is no canonical formalism in standard quantum mechanics to answer questions regarding time durations. This has led to several definitions of tunneling time using
+a parametric approach, e.g. Wigner phase time, B"uttiker-Landauer time, Larmor time, Pollak-Miller time, among many others. The relationship between these proposed tunneling times is still not clear and several experiments to measure the tunneling has also not settled the problem because some report instantaneous tunneling while some report non-zero but superluminal tunneling times. Whichever the case, the crux of the problem is both instantaneous and non-zero tunneling times imply superluminal behavior under the barrier. This raises the question on whether the apparent superluminality is a consequence of using a non-relativistic theory.</p>
+
+<p>In order to address all these compounding problems, we treat tunneling as a time-of-arrival problem and develop a formalism on the construction of relativistic time-of-arrival operators via quantization. This is done by inverting the Hamiltonian of special relativity and utilizing the rigged Hilbert space formulation of quantum mechanics. We showed that despite a relativistic treatment, the tunneling time across a square barrier is instantaneous provided that the barrier height is less than the rest mass energy of the particle.</p>]]></content><author><name></name></author><category term="time-of-arrival" /><category term="news" /><category term="presentation" /><summary type="html"><![CDATA[dissertation defense]]></summary></entry><entry><title type="html">Relativistic time of arrival operators</title><link href="https://pmflores2.github.io/blog/2021/thesis-proposal/" rel="alternate" type="text/html" title="Relativistic time of arrival operators" /><published>2021-10-01T00:00:00+02:00</published><updated>2021-10-01T00:00:00+02:00</updated><id>https://pmflores2.github.io/blog/2021/thesis-proposal</id><content type="html" xml:base="https://pmflores2.github.io/blog/2021/thesis-proposal/"><![CDATA[<p>My thesis proposal was held online via Zoom last October 5, 2021 wherein the goal of my thesis is to construct relativistic time of arrival operators. For those interested, you can download my slides <a href="/assets/pdf/thesisproposal.pdf">here</a></p>
+
+<p>Classical mechanics treats time only as a parameter. Meanwhile, time in special and general relativity acquires a dynamical concept. Special relativity treats time and space on equal footing as coordinates of a four-vector in special which are intertwined with each other under Lorentz transforms. Meanwhile, the geometry of spacetime affects the dynamics of time in general relativity and allows material clocks to display proper time. Now, in quantum theory, time is still treated as a parameter in the same way as classical mechanics treats time. This parameter  t then governs the evolution of the system. These different treatment of time then poses a problem when physicists attempt to unify general relativity and quantum theory and constitutes one aspect of the problem of time in quantum gravity. We have different notions of time, such as entropic time, coordinate time, parametric time, and so on. One might argue that the problem of time might be because we are using a different notions of time which leads to confusion. To avoid this, we will only deal with the concept of time of arrival (TOA).</p>
+
+<p>For a discussion of non-relativistic TOA operators, you can refer to my previous <a href="/blog/2021/quantum-toa/">post</a>. One of the motivations to construct a relativistic TOA operator is that special relativity treats time and space on equal footing. Thus, it is natural to promote time as an operator in relativistic quantum mechanics because position is also treated as an operator. Relativistic particles have spin and are governed by different equations of motion, e.g. Klein-Gordon equation for spin-0 particles and Dirac equation for spin-1/2 particles. However, problems such as negative energies and negative probabilities arise because of the existence of anti-particles.</p>
+
+<p>Anti-particles allows relativistic quantum mechanics to naturally bypass Pauli’s theorem because the Hamiltonian is not bounded from below but this leads to another problem. That is, particle and anti-particle pairs are spontaneously created and annihilated in a relativistic system so we cannot be sure that when we perfrom a TOA experiment, the particle that arrived is the same particle that we started with. This is evident in the Klein-Gordon equation wherein time-evolution mixes the positive and negative energy solutions, while the Dirac equation mixes the particle and anti-particle solutions. Nevertheless, we still insist that if we perform a TOA experiment, then we will obtain a TOA distribution. Now, assuming that TOA is indeed a dynamical observable we can ask: Does this TOA distribution have an underlying ideal distribution generated by the spectral resolution of a corresponding TOA operator? If so, how do we construct this relativistic TOA operator?</p>
+
+<!-- vector fields wherein one has zero divergence while the other has zero curl, that is $$\vec{A}(\vec{x},t) = \vec{A}_\parallel(\vec{x},t) + \vec{A}_\bot(\vec{x},t) $$, where, $$\nabla \times \vec{A}_\parallel(\vec{x},t) = 0$$ and $\nabla \cdot \vec{A}_\bot(\vec{x},t) = 0$. It follows that we can write $\vec{A}_\parallel(\vec{x},t) = \nabla \chi(\vec{x},t)$ where $\chi(\vec{x},t)$ is a scalar field.   
+
+It is easy to see that $\vec{A}_\bot(\vec{x},t)$ is now gauge-invariant while the scalar field $\chi(\vec{x},t)$ transforms as $\chi(\vec{x},t) \rightarrow \chi(\vec{x},t) + \Lambda(\vec{x},t)$. We can thus define a new gauge-invariant quantity $\Phi(\vec{x},t) = V(\vec{x},t) + \partial_t\chi(\vec{x},t)$ and rewrite the minimally coupled Schrodinger equation in terms of these gauge-invariant fields
+\begin{align}
+	i\hbar \dfrac{\partial \phi(\vec{x},t)}{\partial t} = \left[ -\dfrac{1}{2m} \left( -i\hbar \nabla - q \vec{A}_\bot(\vec{x},t)\right)^2 + q \Phi(\vec{x},t) \right] \phi(\vec{x},t)
+	\label{eq:segi}
+\end{align}
+where $\phi(\vec{x},t) = e^{-iq \chi(\vec{x},t)/\hbar} \psi(\vec{x},t)$. The fields $\vec{A}_\bot(\vec{x},t)$ and $\Phi(\vec{x},t)$ are the physical degrees of freedom of the electromagnetic field. Using Eq. \eqref{eq:segi}, the Hamiltonian is now gauge-invariant and it is easy to see that the arising standard time of arrival distribution is also gauge-invariant. Using these transforms, the quantum flux also gauge-invariant.   -->]]></content><author><name></name></author><category term="time-of-arrival" /><category term="news" /><category term="presentation" /><summary type="html"><![CDATA[thesis proposal]]></summary></entry><entry><title type="html">Quantum time of arrival operator</title><link href="https://pmflores2.github.io/blog/2021/quantum-toa/" rel="alternate" type="text/html" title="Quantum time of arrival operator" /><published>2021-05-02T00:00:00+02:00</published><updated>2021-05-02T00:00:00+02:00</updated><id>https://pmflores2.github.io/blog/2021/quantum-toa</id><content type="html" xml:base="https://pmflores2.github.io/blog/2021/quantum-toa/"><![CDATA[<!-- Classical mechanics treats time only as a parameter. Meanwhile, time in special and general relativity acquires a dynamical concept. Special relativity treats time and space on equal footing as coordinates of a four-vector in special which are intertwined with each other under Lorentz transforms. Meanwhile, the geometry of spacetime affects the dynamics of time in general relativity and allows material clocks to display proper time. Now in quantum theory, time is still treated as a parameter in the same way as classical mechanics treats time. This parameter  t then governs the evolution of the system. These different treatment of time then poses a problem when physicists attempt to unify general relativity and quantum theory and constitutes one aspect of the problem of time in quantum gravity. We have different notions of time, such as entropic time, coordinate time, parametric time, and so on. One might argue that the problem of time might be because we are using a different notions of time which leads to confusion. To avoid this, we will only deal with the concept of time of arrival. -->
+
+<p>The goal of this post is to discuss the various constructions of the time of arrival (TOA) operator for both the free and interacting case. This is to help me prepare on my upcoming thesis proposal and will serve as a review on the early studies of TOA operators. Most of the early studies have been mainly focused on the momentum representation of the free TOA operator while our work is done in the position representation of the free and interacting TOA operators. This has lead us to more meaningful interpretations of the TOA operator and its eigenfunctions (this will be a topic for another post). As a breakdown, I will first motivate how TOA poses a fundamental problem in standard quantum mechanics. Then, I will very briefly show the various free TOA operators, and lastly, the construction of TOA operators for the interacting case via quantization and “supraquantization”.</p>
+
+<h4>Motivation</h4>
+
+<p>Classically, there are two ways to measure the TOA of a free particle. The first method is to invert the particle’s classical equation of motion</p>
+
+\[t_{free} = -\mu \dfrac{q-x}{p}\]
+
+<p>where, \(q\) is the initial position, \(x\) is the arrival point, \(\mu\) is the mass of the particle, and \(p\) is the initial momentum. The second method is to use a detector to record the time at which the particle leaves the point \(q\) and another detector to record its arrival at \(x\). These two methods will always yield the same TOA, and can be easily generalized for the interacting case, i.e.</p>
+
+\[t = -\text{sgn}(p) \sqrt{\dfrac{\mu}{2}} \int_x^q \dfrac{dq'}{\sqrt{H(q,p)-V(q')}}\]
+
+<p>where, the Hamiltonian is</p>
+
+\[H(q,p) = \dfrac{p^2}{2\mu} + V(q).\]
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/classicaltoa.png" data-zoomable="" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/classicaltoainteracting.png" data-zoomable="" />
+    </div>
+</div>
+
+<p>However, we cannot use these two methods to solve for the TOA of a quantum particle. Inverting the equation of motion of the position opertator (Heisenberg picture) to solve for the TOA leads to an ordering ambiguity of the position and momentum operators. The same problem is present if we quantize the classical TOA which is further complicated by the complex and/or multiple valuedness of the classical TOA, e.g. complex TOA means that the classical particle cannot arrive at that point while multiple arrival is exhibited by harmonic oscillator potential. We cannot use two detectors as in the classical case because the first detector will induce the collapse of the wavefunction and that the state upon arrival at \(x\) is no longer causally related to the initial state.</p>
+
+<p>If classical mechanics arises from quantum mechanics in the limit as \(\hbar\rightarrow 0\), then this means that quantum mechanics is more fundamental than classical mechanics. However, quantum mechanics offers no solution to the TOA problem while classical mechanics has two equivalent solutions. This poses a fundamental problem in the standard formulation of quantum mechanics.</p>
+
+<h4>Time of arrival operators: free case</h4>
+
+<p>The demotion of time as a parameter in quantum mechanics is mainly due to Pauli’s theorem\(^1\):</p>
+<blockquote>
+There is no self-adjoint time operator that is canonically conjugate with its corresponding system Hamiltonian.
+</blockquote>
+<p>Thus, it is non-sensical to ask the TOA of a quantum particle because time is not an observable in quantum mechanics. Pauli’s proof was only formal, i.e. without regard on the domains of the operators involved, but despite this, the validity of his theorem was unquestioned and has lead to a diverse treatment of time, and TOA, within and beyond the standard formulation of quantum mechanics\(^2\). Furthermore, it has also lead the construction of TOA operators to either give up self-adjointness or conjugacy with the Hamiltoninan in order to bypass Pauli’s theorem.</p>
+
+<p>The earliest TOA operator was constructed by <a href="https://journals.aps.org/pr/abstract/10.1103/PhysRev.122.1649">Aharonov and Bohm</a> by quantizing the classical TOA of a free particle using symmetric ordering</p>
+
+\[\hat{T}_{AB} = -\mu ( \dfrac{\hat{q}\hat{p}^{-1} + \hat{p}^{-1}\hat{q}}{2} ).\]
+
+<p>This operator has been studied extensively and shown to be a maximally symmetric operator whose eigenfunctions are complete but non-orthogonal. <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.54.4676">Grot, Rovelli, and Tate</a> traces the non-self-adjointness of \(\hat{T}_{AB}\) to the singularity at \(p=0\) and constructed a “regularized” self-adjoint TOA operator</p>
+
+\[\hat{T}_{GRT} = -\mu \sqrt{f_\epsilon(\hat{p})} \hat{q} \sqrt{f_\epsilon(\hat{p})}\]
+
+<p>where</p>
+
+\[f_\epsilon(\hat{p}) =
+\begin{cases}
+\hat{p}^{-1}        &amp; |p| &gt; \epsilon \\
+\epsilon^2 \hat{p}  &amp; |p| &lt; \epsilon.
+\end{cases}\]
+
+<p>The regularization amounts to introducing negative energies in the region around \(p=0\) which changes the energy spectrum of the Hamiltonian and thus bypasses Pauli’s theorem.</p>
+
+<p>A self-adjoint extension of \(\hat{T}_{AB}\) was also proposed by <a href="https://www.sciencedirect.com/science/article/abs/pii/S0034487774800042">Kijowski</a>, <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.56.3425">Delgado, and Muga</a> using the combination</p>
+
+\[\hat{T}_{KDM} = \hat{T}_{AB} \Theta(p) - \hat{T}_{AB} \Theta(-p)\]
+
+<p>where the first (second) term only acts on the positive (negative) momentum subspace of the system Hilbert space. This operator bypasses Pauli’s theorem because it is canonically conjugate to \(\text{sgn}(\hat{p})\hat{H}\).</p>
+
+<p>It was later shown that Pauli’s theorem does not hold within the single Hilbert space formulation of quantum mechanics because Pauli has made implicit assumption that were inconsistent \(^3\). This has lead <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.72.062107">Galapon, Caballar, and Bahague</a> to construct the <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.93.180406">confined time of arrival operators</a>(CTOA)</p>
+
+\[\hat{T}_\gamma \varphi(q)= \int_{-l}^l T_\gamma(q,q') \varphi(q') dq'\]
+
+<p>where</p>
+
+\[T_\gamma(q,q') = -\mu \dfrac{q+q'}{4\hbar\sin\gamma} \left( e^{i\gamma} \Theta(q-q') + e^{-i\gamma}\Theta(q'-q)\right).\]
+
+<p>The CTOA operators are self-adjoint and canonically conjugate with the system Hamiltonian. The self-adjointness was was addressed by confining the particle in a segment of the real line \([-l,l]\) and imposing non-vanishing boundary conditions \(\varphi(-l) = e^{-2i\gamma}\varphi(l)\) on the system Hilbert space. It is important to note that the kernel \(T(q,q')\) should be treated as a distribution and this representation allows us to manipulate the TOA operator as a scalar object.</p>
+
+<h4>Time of arrival operators: interacting case</h4>
+
+<p>Constructing TOA operators for the interacting case has been more challenging because the classical TOA expression may be complex and/or multiple-valued. An example of a complex TOA is when a particle is fired upward and the arrival point is chosen to be above the classical turning point. Meanwhile, multiple arrivals is exhibited by a harmonic oscillator potential wherein a particle can arrive multiple times at the arrival point. Because of these, it was deemed non-sensical to quantize the classical TOA for the interacting case. However, these arguments can be addressed on physical grounds. First, it is important to note that the TOA of a quantum particle is always real-valued because it can tunnel through the classically forbidden region. Lastly, only the first TOA is relevant because the detector will induce the collapse of the wavefunction upon its arrival.</p>
+
+<p>It was shown that a TOA operator that is canonically conjugate with the Hamiltonian can be expressed as a sum of the Bender-Dunne basis operators\(^4\). Explicitly, we have</p>
+
+\[\hat{T} = \sum_{m,n} \alpha_{m,n} \hat{t}_{m,n},\]
+
+<p>where</p>
+
+\[\hat{t}_{m,n} = \dfrac{1}{\sum_{k=0}^n a_k^{(n)}} \sum_{k=0}^n a_k^{(n)} \hat{q}^k \hat{p}^m \hat{q}^{n-k} = \dfrac{1}{\sum_{j=0}^m a_j^{(m)}} \sum_{j=0}^m a_j^{(m)} \hat{p}^j \hat{q}^n \hat{p}^{m-j}.\]
+
+<p>The coefficients depend on the ordering rule but must be chosen so that \(\hat{T}\) is Hermitian. Then, by taking the position representation of the TOA operator we get</p>
+
+\[\hat{T}\varphi(q) = \int_{-\infty}^\infty \langle q | \hat{T} | q' \rangle \varphi(q') dq' = \dfrac{\mu}{i\hbar} \int_{-\infty}^\infty T(q,q') \varphi(q') \text{sgn}(q-q')dq'\]
+
+<p>where the kernel \(T(q,q')\) is called the time kernel function and is given as \(^5\)</p>
+
+\[T_W(q,q') = \dfrac{1}{2} \int_0^{\frac{q+q'}{2}} ds{_0}F_1\left[;1;\dfrac{\mu}{2\hbar^2}(q-q')^2 V(\frac{q+q'}{2},s)\right],\]
+
+\[T_{BJ}(q,q') = \dfrac{1}{2(q-q')} \left(\int_0^q ds - \int_0^{q'} ds\right) \int_0^s du {_0}F_1\left[;1;\dfrac{\mu}{2\hbar^2}(q-q')^2 V(s,u)\right],\]
+
+\[T_{SS}(q,q') = \dfrac{1}{4} \int_0^q ds {_0}F_1\left[;1;\dfrac{\mu}{2\hbar^2}(q-q')^2 V(q,s)\right] - \dfrac{1}{4} \int_0^{q'} ds {_0}F_1\left[;1;\dfrac{\mu}{2\hbar^2}(q-q')^2 V(q',s)\right]\]
+
+\[V(x,y)=V(x)-V(y).\]
+
+<p>The subscripts “W”, “BJ”, and “SS” stand for Weyl, Born-Jordan, and simple symmetric. These are the most well-knows and well-studied ordering rules with each having its own distrinctive feature. The Weyl ordering is able to reflect the covariant property of Hamiltonian dynamics, Born-Jordan ordering preserves the equivalence of the Schrodinger and Heisenberg pictures of quantum mechanics, and simple symmetric ordering uses the “average” rule.</p>
+
+<p>A downside to the quantization prescription is that the TOA operators are not generally covariant because of obstructions to quantization. This has lead Galapon\(^6\) to propose the method known as “supraquantization” wherein the time kernel function must satisfy the partial differential equation</p>
+
+\[-\dfrac{\hbar^2}{2\mu} \left( \dfrac{\partial^2}{\partial q^2} - \dfrac{\partial^2}{\partial q'^2} \right) T(q,q,) + (V(q)-V(q'))T(q,q')=0\]
+
+<p>with the boundary conditions \(T(q,q)=q/2\) and \(T(q,-q)=0\). The PDE is a consequence of imposing conjugacy with the Hamiltonian while the boundary conditions arise due to the correspondence principle. In contrast to the quantization prescription, the supraquantized prescription offers a unique TOA operator because the classical observable is used as a boundary condition.</p>
+
+<p>An important result of the supraquantization prescription is that it is equal to the Weyl-ordered quantization for potentials of the form \(V(q)=aq^2+bq+c\). For non-linear systems, the leading term of supraquantization is equal to the Weyl-ordered quantization plus correction terms. These correction terms arise due to the obstruction to quantization and are needed to satisfy the conjugacy relation.</p>
+
+<h4> Footnotes </h4>
+<ol>
+ <li>Pauli, W. (1933). Handbuch der physik. Geiger and scheel, 2, 83-272.</li>
+
+ <li>See the review paper by <a href="https://www.sciencedirect.com/science/article/abs/pii/S0370157300000478">Muga and Leavens</a>. To my knowledge, there is no recent review paper on TOA in quantum mechanics and there there may be recent progress on the topics discussed in the paper</li>
+
+ <li>See the following papers</li>
+
+  <ul>
+  <li><a href="https://royalsocietypublishing.org/doi/abs/10.1098/rspa.2001.0874">Galapon, E. (2002). Pauli's theorem and quantum canonical pairs: the consistency of a bounded, self–adjoint time operator canonically conjugate to a Hamiltonian with non–empty point spectrum. Proceedings of the Royal Society of London. Series A: Mathematical, Physical and Engineering Sciences, 458(2018), 451-472.</a></li>
+  <li><a href="https://royalsocietypublishing.org/doi/abs/10.1098/rspa.2002.0992">Galapon, E. A. (2002). Self–adjoint time operator is the rule for discrete semi–bounded Hamiltonians. Proceedings of the Royal Society of London. Series A: Mathematical, Physical and Engineering Sciences, 458(2027), 2671-2689.</a></li>
+  <li><a href="https://link.springer.com/chapter/10.1007/978-3-642-03174-8_3">Galapon, E. A. (2009). Post Pauli’s theorem emerging perspective on time in quantum mechanics. In Time in Quantum Mechanics-Vol. 2 (pp. 25-63). Springer, Berlin, Heidelberg.</a></li>
+  </ul>
+
+ <li>See the following papers</li>
+  <ul>
+  <li> <a href="https://aip.scitation.org/doi/abs/10.1063/1.527869">Bender, C. M., &amp; Dunne, G. V. (1988). Polynomials and operator orderings. Journal of mathematical physics, 29(8), 1727-1731.</a></li>
+  <li> <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.40.2739">Bender, C. M., &amp; Dunne, G. V. (1989). Exact solutions to operator differential equations. Physical Review D, 40(8), 27.</a></li>
+  <li> <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.40.3504">Bender, C. M., &amp; Dunne, G. V. (1989). Integration of operator differential equations. Physical Review D, 40(10), 3504.</a></li>
+  </ul>
+
+  <li> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0003491618302173">Galapon, E. A., &amp; Magadan, J. J. P. (2018). Quantizations of the classical time of arrival and their dynamics. Annals of Physics, 397, 278-302.</a></li>
+
+  <li><a href="https://aip.scitation.org/doi/abs/10.1063/1.1767297">Galapon, E. A. (2004). Shouldn’t there be an antithesis to quantization?. Journal of mathematical physics, 45(8), 3180-3215.</a></li>
+
+</ol>
+
+<!-- vector fields wherein one has zero divergence while the other has zero curl, that is $$\vec{A}(\vec{x},t) = \vec{A}_\parallel(\vec{x},t) + \vec{A}_\bot(\vec{x},t) $$, where, $$\nabla \times \vec{A}_\parallel(\vec{x},t) = 0$$ and $\nabla \cdot \vec{A}_\bot(\vec{x},t) = 0$. It follows that we can write $\vec{A}_\parallel(\vec{x},t) = \nabla \chi(\vec{x},t)$ where $\chi(\vec{x},t)$ is a scalar field.   
+
+It is easy to see that $\vec{A}_\bot(\vec{x},t)$ is now gauge-invariant while the scalar field $\chi(\vec{x},t)$ transforms as $\chi(\vec{x},t) \rightarrow \chi(\vec{x},t) + \Lambda(\vec{x},t)$. We can thus define a new gauge-invariant quantity $\Phi(\vec{x},t) = V(\vec{x},t) + \partial_t\chi(\vec{x},t)$ and rewrite the minimally coupled Schrodinger equation in terms of these gauge-invariant fields
+\begin{align}
+	i\hbar \dfrac{\partial \phi(\vec{x},t)}{\partial t} = \left[ -\dfrac{1}{2m} \left( -i\hbar \nabla - q \vec{A}_\bot(\vec{x},t)\right)^2 + q \Phi(\vec{x},t) \right] \phi(\vec{x},t)
+	\label{eq:segi}
+\end{align}
+where $\phi(\vec{x},t) = e^{-iq \chi(\vec{x},t)/\hbar} \psi(\vec{x},t)$. The fields $\vec{A}_\bot(\vec{x},t)$ and $\Phi(\vec{x},t)$ are the physical degrees of freedom of the electromagnetic field. Using Eq. \eqref{eq:segi}, the Hamiltonian is now gauge-invariant and it is easy to see that the arising standard time of arrival distribution is also gauge-invariant. Using these transforms, the quantum flux also gauge-invariant.   -->]]></content><author><name></name></author><category term="time-of-arrival" /><category term="explainer" /><summary type="html"><![CDATA[Overview]]></summary></entry><entry><title type="html">Problem of time: from standard quantum mechanics to quantum gravity</title><link href="https://pmflores2.github.io/blog/2020/candidacy/" rel="alternate" type="text/html" title="Problem of time: from standard quantum mechanics to quantum gravity" /><published>2020-12-18T00:00:00+01:00</published><updated>2020-12-18T00:00:00+01:00</updated><id>https://pmflores2.github.io/blog/2020/candidacy</id><content type="html" xml:base="https://pmflores2.github.io/blog/2020/candidacy/"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/RPk-MZjZiDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>My candidacy exam was held online via zoom last December 15, 2020. For those interested, you can download my slides <a href="/assets/pdf/presentation.pdf">here</a>. The goal of this talk was to present how time is a fundamental problem in physics by discussing the different problems of time that arise in the context of different theories.</p>
+
+<p>The unification of quantum field theory and general relativity, which supposedly yields quantum gravity, still remains problematic. A possible source of this complication is the mismatch of the notion of time in quantum theory and general relativity. Relativity treats time to be dynamical and on equal footing with space, i.e. special relativity treats time and space as components of a 4-vector that transforms covariantly under Lorentz transforms while time in general relativity is influenced by the geometry of spacetime which allows material clocks to display proper time.</p>
+
+<p>Time in quantum theory is absolute and treated as an external parameter which governs the evolution of the system. Despite this parametric treatment of time, we have the well-known time-energy uncertainty relation</p>
+
+\[\Delta E \Delta t \geq \dfrac{\hbar}{2}\]
+
+<p>which is not deduced from the commutation relation of operators but is nonetheless accepted to be valid. This uncertainty relation plays a central role in our understanding of time in quantum theory. In non-relativistic quantum mechanics, the time-energy uncertainty relation leads to the problem of constructing a corresponding self-adjoint time operator that is canonically conjugate with the Hamiltonian. In relativistic quantum mechancis, it manifests itself in the localization problem. Lastly, in quantum field theory, it manifests as the number-phase uncertainty.</p>
+
+<p>In the context of quantum gravity, the problem of time is that there is no time. Canonical quantization of gravity yields the Wheeler DeWitt equation which is a constraint equation that annihilates all physical states. This equation means that the universe is an eigenstate of the Hamiltonian and that the Hamiltonian does not generate time translation, i.e. the universe is “frozen” in time.</p>
+
+<p>If the universe is “frozen” in time, then how do we explain the dynamics that we experience? This was addressed by Page and Wootters. They did this by using a clock to correlate its initial state to the initial state of a system S. One can then construct a Hamiltonian that when a measurement on the clock is performed, the system collapses onto a time-evolved state that we expect. By doing so, we get the interpretation that time is an emergent phenomenon.</p>
+
+<p>This then leads us to two central questions regarding time: (1) how should the notion of time be reintroduced? Maybe introduce a notion of dynamical time in quantum theory or an absolute time in GR, and (2) is time a fundamental concept or is it purely phenomenological, i.e. time is just an illusion?</p>
+
+<!-- Pauli concluded that a self-adjoint time operator that is canonically conjugate with the Hamiltonian cannot exist
+
+
+However, time demonstrates a non-parametric aspect in radioactivity. The time at which a radioactive particle decays is inherently random and a measurement of the decay time an ensemble of similar particles is distributed. Aside from decay time, time also demonstrates a non-parametric aspect when measuring the occurrence of an event such as arrival time, tunneling time, and escape time. -->]]></content><author><name></name></author><category term="news" /><category term="presentation" /><summary type="html"><![CDATA[candicacy exam]]></summary></entry><entry><title type="html">hello world</title><link href="https://pmflores2.github.io/blog/2020/first-post/" rel="alternate" type="text/html" title="hello world" /><published>2020-12-10T00:00:00+01:00</published><updated>2020-12-10T00:00:00+01:00</updated><id>https://pmflores2.github.io/blog/2020/first-post</id><content type="html" xml:base="https://pmflores2.github.io/blog/2020/first-post/"><![CDATA[<p>This year was marked by a lot of setbacks which has made it very difficult to do research. The ongoing pandemic has forced schools and universities to implement online classes despite the questionable readiness of the entire education system.</p>
+
+<p>In my attempt to be somewhat productive during this pandemic, I have decided to build this blog. I don’t really have much to write about in this post so I guess this is it for now. I am currently preparing for my candidacy exam this coming Tuesday, December 15, 2020, so I will probably write about it on my next post.</p>]]></content><author><name></name></author><category term="news" /><summary type="html"><![CDATA[my first blog post]]></summary></entry></feed>
