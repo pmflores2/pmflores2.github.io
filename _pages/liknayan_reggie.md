@@ -1,0 +1,4 @@
+#### **Reggie Bernardo, PhD**
+##### *Asia Pacific Center for Theoretical Physics, Korea*
+
+<a href="https://reggiebernardo.github.io/">Reggie</a> earned his Bachelor’s, Master’s, and PhD in Physics from the University of the Philippines Diliman, where he also served as an Instructor and Assistant Professor. He is the first homegrown Filipino Gravitational Physicist. His doctoral research focused on `compact objects, cosmologies, and gravitational perturbations within scalar-tensor theories of gravity`. After PhD, he moved to Academia Sinica, Taiwan for his first postdoc venture and then to APCTP, Korea for a second/current one. His interests span `cosmology, gravitational waves, dark energy, data analysis, machine learning, and physics education`.
