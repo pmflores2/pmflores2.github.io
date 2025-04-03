@@ -7,3 +7,23 @@
 
 "Vision":
   color: "#009f36"
+
+"EPL":
+  url: https://iopscience.iop.org/journal/0295-5075
+  color: "#E1071A"
+
+"PRA":
+  url: https://journals.aps.org/pra/ 
+  color: "#6D787C"
+
+"EPJP":
+  url: https://link.springer.com/journal/13360
+  color: "#AD173E"
+
+"SPP":
+  url: https://spp-online.org/
+  color: "#5E7ABD"
+
+"UP":
+  url: https://www.up2024.org/
+  color: "#2B333D"

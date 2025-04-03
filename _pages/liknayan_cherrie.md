@@ -1,0 +1,4 @@
+#### **Cherrie Olaya, PhD**
+##### *RIKEN (Institute of Physical and Chemical Research), Japan*
+
+<a href="https://scholar.google.com/citations?user=e78jVyoAAAAJ&hl=en&oi=ao">Cherrie</a> earned her Bachelor’s, Master’s, and PhD in Physics from the University of the Philippines Diliman, where she also served as an Instructor at the National Institute of Physics. Her doctoral research focused on developing an `optical setup to simultaneously measure reflectivity and Goos-Hanchen (GH) shift`, significantly enhancing the angular GH shift by exploiting the beam propagation dependence and focusing the incident beam to a small waist. She is currently a postdoctoral researcher at RIKEN, Japan, where she continues to explore `beam displacements for detecting changes in material refractive indices`.

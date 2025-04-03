@@ -1,0 +1,4 @@
+#### **Jane Garcia**
+##### *Johns Hopkins University, USA*
+
+<a href="https://scholar.google.com/citations?user=x6ozmB4AAAAJ&hl=en&oi=ao">Jane</a> earned her Bachelor’s and Master’s degrees in Physics from the University of the Philippines Diliman, where she also served as an Instructor. Her research focused on investigating `steady-state wealth distribution in a kinetic model of gambling`. After her Master’s, she went to the International Centre of Theoretical Physics in Italy as a research student. She is now a PhD candidate at Johns Hopkins University, where she is working to understand the `self-organization of topological defects in liquid crystal phase transitions`.

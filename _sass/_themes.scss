@@ -2,33 +2,32 @@
  * Themes
  ******************************************************************************/
 
-@use "sass:color";
-
 :root {
-  color-scheme: light;
-  --global-bg-color: #{$white-color};
+  // --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
+  // --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  // --global-theme-color: #{$purple-color};
+  // --global-hover-color: #{$purple-color};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
+  // --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$white-color};
   --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
-  );
+  --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
   --global-back-to-top-text-color: #{$white-color};
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
+
+  // custom colors
+  --global-bg-color: #{$alice-blue-color};
+  --global-text-color: #{$raisin-black-color};
+  --global-theme-color: #{$royal-blue-color};
+  --global-hover-color: #{$celestial-blue-color};
+  --global-divider-color: #{$royal-blue-color};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -42,6 +41,8 @@
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+
+   
 
   #light-toggle-system {
     padding-left: 10px;
@@ -57,11 +58,10 @@
     display: none;
   }
 
-  .only-light {
+  .repo-img-light {
     display: block;
   }
-
-  .only-dark {
+  .repo-img-dark {
     display: none;
   }
 
@@ -77,29 +77,31 @@
 }
 
 html[data-theme="dark"] {
-  color-scheme: dark;
-  --global-bg-color: #{$grey-color-dark};
+  // --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
+  // --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  // --global-theme-color: #{$cyan-color};
+  // --global-hover-color: #{$cyan-color};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
+  // --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
-  );
+  --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};
+
+  // custom colors
+  --global-bg-color: #{$raisin-black-color};
+  --global-text-color: #{$alice-blue-color};
+  --global-theme-color: #{$celestial-blue-color};
+  --global-hover-color: #{$orange-web-color};
+  --global-divider-color: #{$celestial-blue-color};
+
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -114,11 +116,10 @@ html[data-theme="dark"] {
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
-  .only-light {
+  .repo-img-light {
     display: none;
   }
-
-  .only-dark {
+  .repo-img-dark {
     display: block;
   }
 }
