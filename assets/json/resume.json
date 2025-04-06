@@ -30,7 +30,7 @@
       "startDate": "2023-03",
       "endDate": "present",
       // "summary": "line 1 // line 2",
-      "highlights": ["Project: ULISSES - Ultrafast molecular chirality: twisting light to twist electrons on ultrafast time scale","Principal Investigator: Prof. Dr. Olga Smirnova","Develop geometric concepts in the photoionization of chiral molecules"]
+      "highlights": ["Project: ULISSES - Ultrafast molecular chirality: twisting light to twist electrons on ultrafast time scale","Principal Investigator: Prof. Dr. Olga Smirnova","Spin polarization in the photoionization of chiral molecules"]
     },
     {
       "name": "National Institute of Physics, University of the Philippines Diliman",
@@ -95,29 +95,29 @@
       "courses": ["Thesis title: Synchronization of quantum and classical clocks, and energy translation using resolvent functional calculus for the confined time of arrival operators"]
     }
   ],
-  "publications": [
-    {
-      "name": "Quantum free-fall motion and quantum violation of the weak equivalence principle",
-      "publisher": "Physical Review A",
-      "releaseDate": "2019-04-17",
-      "url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.99.042113",
-      "summary": "This study examines how the Weak Equivalence Principle (WEP) — the idea that gravitational and inertial masses are always equal — behaves in the quantum realm. By calculating the time it takes for a particle to reach a specific point under gravity, we found small mass-dependent differences that suggest the WEP doesn't hold perfectly in quantum mechanics. These findings show that quantum effects can lead to a violation of the WEP."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  // "publications": [
+  //   {
+  //     "name": "Quantum free-fall motion and quantum violation of the weak equivalence principle",
+  //     "publisher": "Physical Review A",
+  //     "releaseDate": "2019-04-17",
+  //     "url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.99.042113",
+  //     "summary": "This study examines how the Weak Equivalence Principle (WEP) — the idea that gravitational and inertial masses are always equal — behaves in the quantum realm. By calculating the time it takes for a particle to reach a specific point under gravity, we found small mass-dependent differences that suggest the WEP doesn't hold perfectly in quantum mechanics. These findings show that quantum effects can lead to a violation of the WEP."
+  //   },
+  //   {
+  //     "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
+  //     "publisher": "Annalen der Physik",
+  //     "releaseDate": "1905-03-18",
+  //     "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
+  //     "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+  //   },
+  //   {
+  //     "name": "Die Grundlage der allgemeinen Relativitätstheorie",
+  //     "publisher": "Annalen der Physik",
+  //     "releaseDate": "1916-03-20",
+  //     "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
+  //     "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+  //   }
+  // ],
   "awards": [
     {
       "title": "Most Outstanding PhD in Physics Graduate",
@@ -141,123 +141,133 @@
       "summary": "Awardees are selected on the basis of their academic and research performance and nomination from the university"
     }
   ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+  // "volunteer": [
+  //   {
+  //     "organization": "People's Climate March",
+  //     "location": "Zurich, Switzerland",
+  //     "position": "Lead Organizer",
+  //     "url": "https://example.com",
+  //     "startDate": "2014-04-01",
+  //     "endDate": "2015-07-01",
+  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+  //   }
+  // ],
+  // "certificates": [
+  //   {
+  //     "name": "Machine Learning",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-location-dot"
+  //   },
+  //   {
+  //     "name": "Quantum Computing",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-tag"
+  //   },
+  //   {
+  //     "name": "Quantum Information",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-envelope"
+  //   },
+  //   {
+  //     "name": "Quantum Cryptography",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-hashtag"
+  //   },
+  //   {
+  //     "name": "Quantum Communication",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-calendar"
+  //   },
+  //   {
+  //     "name": "Quantum Teleportation",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-clipboard-check"
+  //   }
+  // ],
+  // "skills": [
+  //   {
+  //     "name": "Physics",
+  //     "level": "Master",
+  //     "icon": "fa-solid fa-hashtag",
+  //     "keywords": [
+  //       "Quantum Mechanics",
+  //       "Quantum Computing",
+  //       "Quantum Information",
+  //       "Quantum Cryptography",
+  //       "Quantum Communication",
+  //       "Quantum Teleportation"
+  //     ]
+  //   }
+  // ],
+  // "languages": [
+  //   {
+  //     "language": "German",
+  //     "fluency": "Native speaker",
+  //     "icon": ""
+  //   },
+  //   {
+  //     "language": "English",
+  //     "fluency": "Fluent",
+  //     "icon": ""
+  //   }
+  // ],
+  // "interests": [
+  //   {
+  //     "name": "Physics",
+  //     "icon": "fa-solid fa-tag",
+  //     "keywords": [
+  //       "Quantum Mechanics",
+  //       "Quantum Computing",
+  //       "Quantum Information",
+  //       "Quantum Cryptography",
+  //       "Quantum Communication",
+  //       "Quantum Teleportation"
+  //     ]
+  //   }
+  // ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Prof. Dr. Olga Smirnova",
+      "icon": "fa-solid fa-envelope",
+      "reference": "Professor, Technische Universität Berlin. <br> Head, Strong Field Theory Group, <br> Max-Born-Institute, <br> Max-Born-Str. 2A 12489 Berlin <br> smirnova@mbi-berlin.de"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
+      "name": "Prof. Dr. Misha Ivanov",
+      "icon": "fa-solid fa-envelope",
+      "reference": "Professor, Humboldt University. <br> Head, Theory Department, <br> Max-Born-Institute, <br> Max-Born-Str. 2A 12489 Berlin <br> Mikhail.Ivanov@mbi-berlin.de"
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Eric A. Galapon, PhD",
+      "icon": "fa-solid fa-envelope",
+      "reference": "Professor, National Institute of Physics, <br> University of the Philippines Diliman, <br> Quezon City 1101, Philippines <br> eagalapon@up.edu.ph"
+    },
+    {
+      "name": "Giovanni A. Tapang, PhD",
+      "icon": "fa-solid fa-envelope",
+      "reference": "Dean, College of Science, <br> Professor, National Institute of Physics, <br> University of the Philippines Diliman, <br> Quezon City 1101, Philippines <br> gtapang@nip.upd.edu.ph"
     }
   ]
+  // "projects": [
+  //   {
+  //     "name": "Quantum Computing",
+  //     "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+  //     "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+  //     "startDate": "2018-01-01",
+  //     "endDate": "2018-01-01",
+  //     "url": "https://example.com"
+  //   }
+  // ]
 }

@@ -26,7 +26,8 @@ Currently, I am a postdoctoral researcher at the [Max Born Institute for Nonline
 
 I have also recently ventured into `science communication` by co-founding the [Liknayan Podcast](https://www.youtube.com/@liknayan.podcast) on YouTube with my colleagues [Reggie Bernardo](https://reggiebernardo.github.io/), [Cherrie Olaya](https://scholar.google.com/citations?user=e78jVyoAAAAJ&hl=en&oi=ao), [Jane Garcia](https://scholar.google.com/citations?user=x6ozmB4AAAAJ&hl=en&oi=ao), [Frankie Palabrica](https://www.linkedin.com/in/francesca-palabrica-165160a1/), and Mika San Diego. Our goal is to inspire the next generation of Filipino students to pursue careers in physics.
 
-You can download my CV [here]({{ '/assets/pdf/FloresCV.pdf' | relative_url }}). Beyond physics, I enjoy watching movies and anime, reading manga, playing computer games, and customizing Gundam plastic models (Gunpla). 
+<!-- You can download my CV [here]({{ '/assets/pdf/FloresCV.pdf' | relative_url }}).  -->
+Beyond physics, I enjoy watching movies and anime, reading manga, playing computer games, and customizing Gundam plastic models (Gunpla). 
 
 <!-- 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
