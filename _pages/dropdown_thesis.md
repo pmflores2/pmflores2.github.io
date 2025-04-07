@@ -5,12 +5,12 @@ nav: true
 nav_order: 4
 dropdown: true
 children:
-  - title: bachelor
-    permalink: /bachelor/
+  - title: phd
+    permalink: /phd/
   - title: divider
   - title: masters
     permalink: /masters/
   - title: divider
-  - title: phd
-    permalink: /phd/
+  - title: bachelor
+    permalink: /bachelor/
 ---

@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: collection of my research projects and science outreach activities  
 nav: false
-nav_order: 3
+nav_order: 2
 display_categories: [chirality, tunneling-time, toa-operators, quantum-toa]
 horizontal: false
 ---
