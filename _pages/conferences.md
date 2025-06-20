@@ -9,7 +9,13 @@ nav_order: 3
 
 ## 2025 
 
+- **Poster**, [10th International Conference on Attosecond Science and Technology](https://attox.se/), Jul 6 - 11 2025, Lund, Austria 🇸🇪
+
 - **Poster**, [15th European Conference on Atoms Molecules and Photons](https://ecamp15.org/), Jun 30 - Jul 4 2025, Congress Innsbruck, Austria 🇦🇹
+
+- **Poster**, [16th Femtochemistry Conference](https://indico.elettra.eu/event/44/), Jun 22 - 27 2025, Savoia Hotel, Trieste, Italy 🇮🇹
+
+- **Contributed talk**, [LIGHT-MATTER INTERACTION: Focusing on Polariton Chemistry and Physics](https://lpage.ch.rachip.com/light-matter-interaction-focusing-on-polariton-chemistry-and-physics/), May 26 - 30 2025, Cultural Centre "Jules Pascin" - the Synagogue, Bulgaria 🇧🇬
 
 - **Contributed talk**, [DPG Spring Meeting of the Matter and Cosmos Section](https://goettingen25.dpg-tagungen.de/), Mar 31 - Apr 4 2025, University of Goettingen, Germany 🇩🇪
 
