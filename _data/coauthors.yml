@@ -49,8 +49,24 @@
   - firstname: ["Olga", "O."]
     url: https://scholar.google.com/citations?user=wsyVUeMAAAAJ&hl=en
 
+"carlstrom":
+  - firstname: ["Stefanos"]
+    url: https://scholar.google.com/citations?user=pmg1sp8AAAAJ&hl=en&oi=ao
+
+"patchkovskii":
+  - firstname: ["Serguei"]
+    url: https://scholar.google.com/citations?user=ZfntG90AAAAJ&hl=en
+
+"ivanov":
+  - firstname: ["Misha"]
+    url: https://scholar.google.com/citations?user=Ncu-IYYAAAAJ&hl=en
+
+"mujica":
+  - firstname: ["Vladimiro"]
+    url: https://scholar.google.com/citations?user=R47pP-MAAAAJ&hl=en&oi=ao
+
 "ordonez":
-  - firstname: ["Andres Felipe", "A. F.", "Andres", "A."]
+  - firstname: ["Andres Felipe", "A. F.", "Andres", "A.", "Andres F"]
     url: https://scholar.google.com/citations?user=L1ZXmY4AAAAJ&hl=en&oi=ao
 
 "ayuso":

@@ -9,7 +9,11 @@ nav_order: 3
 
 ## 2025 
 
-- **Poster**, [10th International Conference on Attosecond Science and Technology](https://attox.se/), Jul 6 - 11 2025, Lund, Austria 🇸🇪
+- **Poster**, [Conference on Extreme Light and Chiral Molecular Systems](https://www.atom.uni-frankfurt.de/elch2025/index.html), Sept 2 - 5 2025, Kassel, Germany 🇩🇪
+
+- **Poster**, [34th International Conference on Photonic, Electronic and Atomic Collisions](https://www.icpeac2025.jp/), Jul 29 - Aug 5 2025, Sapporo, Japan 🇯🇵
+
+- **Poster**, [10th International Conference on Attosecond Science and Technology](https://attox.se/), Jul 6 - 11 2025, Lund, Sweden 🇸🇪
 
 - **Poster**, [15th European Conference on Atoms Molecules and Photons](https://ecamp15.org/), Jun 30 - Jul 4 2025, Congress Innsbruck, Austria 🇦🇹
 
