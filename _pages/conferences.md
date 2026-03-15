@@ -7,6 +7,10 @@ nav: true
 nav_order: 3
 ---
 
+## 2026
+
+- **Contributed talk**, [DPG Spring Meeting of the Atomic, Molecular, Quantum Optics and Photonics Section](https://mainz26.dpg-tagungen.de/), Mar 1-6 2026, Johannes Gutenberg University Mainz, Germany 🇩🇪
+
 ## 2025 
 
 - **Poster**, [Conference on Extreme Light and Chiral Molecular Systems](https://www.atom.uni-frankfurt.de/elch2025/index.html), Sept 2 - 5 2025, Kassel, Germany 🇩🇪

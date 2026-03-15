@@ -6,7 +6,7 @@ subtitle: <i> "Study hard what interests you the most in the most undisciplined,
 
 profile:
   align: right
-  image: my_pic2.jpg
+  image: my_pic3.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Strongfield Theory Group</p>
