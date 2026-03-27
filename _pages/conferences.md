@@ -9,6 +9,10 @@ nav_order: 3
 
 ## 2026
 
+- **Poster**, [Multiphoton Processes (Gordon Research Conference)](https://www.grc.org/multiphoton-processes-conference/2026/), Jun 7-12 2026, Stonehill College, Massachusetts, USA 🇺🇸
+
+- **Participant**, [Multiphoton Processes (Gordon Research Seminar)](https://www.grc.org/multiphoton-processes-grs-conference/2026/), Jun 6-7 2026, Stonehill College, Massachusetts, USA 🇺🇸
+
 - **Contributed talk**, [DPG Spring Meeting of the Atomic, Molecular, Quantum Optics and Photonics Section](https://mainz26.dpg-tagungen.de/), Mar 1-6 2026, Johannes Gutenberg University Mainz, Germany 🇩🇪
 
 ## 2025 
