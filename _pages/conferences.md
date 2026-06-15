@@ -9,6 +9,8 @@ nav_order: 3
 
 ## 2026
 
+- **Contributed talk**, [Stereodynamics 2026](https://eventos.ucm.es/137959/detail/stereodynamics-2026.html), Jun 22-26 2026, Facultad de Ciencias Químicas, Universidad Complutense de Madrid, Spain 🇪🇸
+
 - **Poster**, [Multiphoton Processes (Gordon Research Conference)](https://www.grc.org/multiphoton-processes-conference/2026/), Jun 7-12 2026, Stonehill College, Massachusetts, USA 🇺🇸
 
 - **Contributed talk**, [Multiphoton Processes (Gordon Research Seminar)](https://www.grc.org/multiphoton-processes-grs-conference/2026/), Jun 6-7 2026, Stonehill College, Massachusetts, USA 🇺🇸
