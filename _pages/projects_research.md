@@ -1,9 +1,10 @@
 ---
 layout: page
 title: research
-permalink: /projects/research/
+permalink: /research/
 description:
-nav: false
+nav: true
+nav_order: 4
 display_categories:
   - chirality and spin-polarization in photoionization
   - time-of-arrival operators

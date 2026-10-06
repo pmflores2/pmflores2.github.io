@@ -1,9 +1,10 @@
 ---
 layout: page
 title: outreach
-permalink: /projects/outreach/
+permalink: /outreach/
 description:
-nav: false
+nav: true
+nav_order: 5
 display_categories:
   - science communication
   - volunteer activities

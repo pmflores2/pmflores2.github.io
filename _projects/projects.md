@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: collection of activities
-nav: true
+nav: false
 nav_order: 4
 display_categories: [thesis, science communication, volunteer activities]
 horizontal: true
