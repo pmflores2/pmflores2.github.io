@@ -6,7 +6,7 @@ subtitle: <i> "Study hard what interests you the most in the most undisciplined,
 
 profile:
   align: right
-  image: my_pic3.jpg
+  image: my_pic4.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Strongfield Theory Group</p>
@@ -24,7 +24,7 @@ I obtained my BS (2017), MS (2019), and PhD (2023) in Physics from the [National
 
 Currently, I am a postdoctoral researcher at the [Max Born Institute for Nonlinear Optics and Short Pulse Spectroscopy](https://mbi-berlin.de/homepage), supervised by [Prof. Dr. Olga Smirnova](https://mbi-berlin.de/p/olgasmirnova). My work involves developing geometric concepts in the `photoionization of chiral molecules`.  
 
-I have also recently ventured into `science communication` by co-founding the [Liknayan Podcast](https://www.youtube.com/@liknayan.podcast) on YouTube with my colleagues [Reggie Bernardo](https://reggiebernardo.github.io/), [Cherrie Olaya](https://scholar.google.com/citations?user=e78jVyoAAAAJ&hl=en&oi=ao), [Jane Garcia](https://scholar.google.com/citations?user=x6ozmB4AAAAJ&hl=en&oi=ao), [Frankie Palabrica](https://www.linkedin.com/in/francesca-palabrica-165160a1/), and Mika San Diego. Our goal is to inspire the next generation of Filipino students to pursue careers in physics.
+I have also recently ventured into `science communication` by co-founding the `Liknayan Podcast` (available on [Youtube](https://www.youtube.com/@liknayan.podcast) and [Spotify](https://open.spotify.com/show/5jImZX1rHiQbWZtpfvazLw)) with my colleagues [Reggie Bernardo](https://reggiebernardo.github.io/), [Cherrie Olaya](https://scholar.google.com/citations?user=e78jVyoAAAAJ&hl=en&oi=ao), [Jane Garcia](https://scholar.google.com/citations?user=x6ozmB4AAAAJ&hl=en&oi=ao), [Frankie Palabrica](https://www.linkedin.com/in/francesca-palabrica-165160a1/), and Mika San Diego. Our goal is to inspire the next generation of Filipino students to pursue careers in physics.
 
 <!-- You can download my CV [here]({{ '/assets/pdf/FloresCV.pdf' | relative_url }}).  -->
 Beyond physics, I enjoy watching movies and anime, reading manga, playing computer games, and customizing Gundam plastic models (Gunpla). 
