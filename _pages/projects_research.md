@@ -1,11 +1,10 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: theses, outreach, and science communication
+title: research
+permalink: /projects/research/
+description: theses and research projects
 nav: false
-nav_order: 4
-display_categories: [research, science communication, volunteer activities]
+display_categories: [theses]
 horizontal: false
 ---
 

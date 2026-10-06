@@ -1,0 +1,6 @@
+<div class="pod-host">
+  <img src="{{ '/assets/img/' | append: include.h.photo | relative_url }}" alt="{{ include.h.name }}" />
+  <div class="pod-name">{% if include.h.url %}<a href="{{ include.h.url }}">{{ include.h.name }}</a>{% else %}{{ include.h.name }}{% endif %}</div>
+  <div class="pod-aff">{{ include.h.role }}{% if include.h.affiliation %}<br />{{ include.h.affiliation }}{% endif %}</div>
+  {% if include.h.bio %}<details><summary>bio</summary>{{ include.h.bio | markdownify }}</details>{% endif %}
+</div>

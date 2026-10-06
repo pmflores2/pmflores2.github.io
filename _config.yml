@@ -200,9 +200,9 @@ collections:
     permalink: /:collection/:title/
 
 announcements:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: false # show all items in the limit without an inner scroll bar
+  limit: 5 # number of latest news items shown on the homepage
 
 latest_posts:
   enabled: false
@@ -367,6 +367,7 @@ filtered_bibtex_keywords:
     preview,
     selected,
     slides,
+    summary,
     supp,
     video,
     website,

@@ -1,3 +1,32 @@
+<style>
+  .pub-toggle {
+    background: none;
+    border: 0;
+    padding: 0;
+    font-size: 0.85rem;
+    color: var(--global-theme-color);
+    cursor: pointer;
+  }
+  .pub-toggle:hover {
+    color: var(--global-hover-color);
+  }
+  .pub-toggle:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+  }
+  .pub-toggle-icon {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .pub-toggle[aria-expanded='true'] .pub-toggle-icon {
+    transform: rotate(180deg);
+  }
+  .pub-summary {
+    font-size: 0.95rem;
+    font-style: italic;
+  }
+</style>
+
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% assign publications = data[1] | sort: 'releaseDate' | reverse %}
   {% for content in publications %}
@@ -20,7 +49,23 @@
             <a href="{{ content.url }}">{{ content.name }}</a>
           </h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.publisher }}</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
+          {% if content.summary and content.summary != '' %}
+            <div class="ml-1 ml-md-4">
+              <button
+                class="pub-toggle collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#pub-summary-{{ forloop.index }}"
+                aria-expanded="false"
+                aria-controls="pub-summary-{{ forloop.index }}"
+              >
+                summary <i class="ti ti-chevron-down pub-toggle-icon" aria-hidden="true"></i>
+              </button>
+              <div class="collapse" id="pub-summary-{{ forloop.index }}">
+                <p class="pub-summary mb-0 mt-2">{{ content.summary }}</p>
+              </div>
+            </div>
+          {% endif %}
         </div>
       </div>
     </li>

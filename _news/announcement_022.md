@@ -1,7 +1,7 @@
 ---
 layout: post
 title: talk accepted
-date: 2025-1-24
+date: 2025-01-24
 inline: true
 ---
 

@@ -2,11 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: theses, outreach, and science communication
-nav: false
+description: collection of activities
+nav: true
 nav_order: 4
-display_categories: [research, science communication, volunteer activities]
-horizontal: false
+display_categories: [thesis, science communication, volunteer activities]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

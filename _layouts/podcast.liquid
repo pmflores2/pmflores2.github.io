@@ -1,0 +1,96 @@
+---
+layout: default
+---
+{% comment %}
+  Podcast layout, loosely modelled on the jekyll-octopod look:
+  hero with cover art + subscribe buttons, episode list with players, hosts, about.
+  Content comes from _data/liknayan.yml (set spotify_show there).
+{% endcomment %}
+{% assign pod = site.data.liknayan %}
+{% if pod.spotify_show != blank %}
+  {% capture spotify_url %}https://open.spotify.com/show/{{ pod.spotify_show }}{% endcapture %}
+{% else %}
+  {% assign spotify_url = 'https://open.spotify.com/search/Liknayan%20Podcast' %}
+{% endif %}
+
+<style>
+  .podcast .pod-hero { padding: 2rem; border-radius: 1rem; background: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); }
+  .podcast .pod-top { display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; }
+  .podcast .pod-about { margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--global-divider-color); }
+  .podcast .pod-player { margin-top: 1.5rem; }
+  .podcast .pod-hero img { width: 220px; max-width: 100%; border-radius: 1rem; box-shadow: 0 6px 20px rgba(0,0,0,.2); }
+  .podcast .pod-hero .pod-meta { flex: 1; min-width: 240px; }
+  .podcast .pod-hero h1 { margin: 0 0 .25rem; font-weight: 700; }
+  .podcast .pod-tagline { color: var(--global-text-color-light); margin-bottom: 1rem; }
+  .podcast .pod-buttons a { display: inline-block; margin: 0 .5rem .5rem 0; padding: .5rem 1rem; border-radius: 2rem; border: 1px solid var(--global-theme-color); color: var(--global-theme-color); text-decoration: none; }
+  .podcast .pod-buttons a:first-child, .podcast .pod-buttons a:hover { background: var(--global-theme-color); color: var(--global-bg-color); }
+  .podcast h2.pod-section { margin: 2.5rem 0 1rem; padding-bottom: .4rem; border-bottom: 2px solid var(--global-theme-color); }
+  .podcast .pod-episode { padding: 1rem 1.25rem; margin-bottom: 1rem; border-radius: .75rem; background: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); }
+  .podcast .pod-episode h3 { margin: 0 0 .25rem; font-size: 1.15rem; }
+  .podcast .pod-episode .pod-info { color: var(--global-text-color-light); font-size: .85rem; margin-bottom: .5rem; }
+  .podcast .pod-hosts { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1.25rem; }
+  .podcast .pod-host { text-align: center; }
+  .podcast .pod-host img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 50%; margin-bottom: .5rem; }
+  .podcast .pod-host .pod-name { font-weight: 600; line-height: 1.2; }
+  .podcast .pod-host .pod-aff { font-size: .8rem; color: var(--global-text-color-light); }
+  .podcast .pod-host details { text-align: left; font-size: .85rem; margin-top: .4rem; }
+  .podcast .pod-host summary { cursor: pointer; text-align: center; color: var(--global-theme-color); }
+  .podcast iframe { border-radius: 12px; border: 0; }
+</style>
+
+<div class="podcast">
+  <div class="pod-hero">
+    <div class="pod-top">
+      <img src="{{ pod.cover | relative_url }}" alt="{{ pod.title }} cover art" />
+      <div class="pod-meta">
+        <h1>{{ pod.title }}</h1>
+        <div class="pod-tagline">{{ pod.tagline }}</div>
+        <div class="pod-buttons">
+          <a href="{{ spotify_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-spotify"></i> Listen on Spotify</a>
+          {% if pod.youtube != blank %}<a href="{{ pod.youtube }}" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> YouTube</a>{% endif %}
+          {% if pod.email != blank %}<a href="mailto:{{ pod.email }}"><i class="fa-solid fa-envelope"></i> Contact</a>{% endif %}
+        </div>
+      </div>
+    </div>
+
+    <div class="pod-about">{{ pod.about | markdownify }}</div>
+
+    {% if pod.trailer_episode != blank %}
+    <div class="pod-player">
+      <iframe src="https://open.spotify.com/embed/episode/{{ pod.trailer_episode }}?utm_source=generator" width="100%" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="{{ pod.title }} trailer"></iframe>
+    </div>
+    {% elsif pod.spotify_show != blank %}
+    <div class="pod-player">
+      <iframe src="https://open.spotify.com/embed/show/{{ pod.spotify_show }}?utm_source=generator" width="100%" height="352" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="{{ pod.title }} on Spotify"></iframe>
+    </div>
+    {% endif %}
+  </div>
+
+  <h2 class="pod-section">Recent episodes</h2>
+  {% for ep in pod.episodes %}
+  <div class="pod-episode">
+    <h3>{% if ep.number %}Ep {{ ep.number }} · {% endif %}{{ ep.title }}</h3>
+    <div class="pod-info">{{ ep.date }}{% if ep.duration %} · {{ ep.duration }}{% endif %}</div>
+    {% if ep.description %}<div>{{ ep.description | markdownify }}</div>{% endif %}
+    {% if ep.spotify_episode != blank %}
+    <iframe src="https://open.spotify.com/embed/episode/{{ ep.spotify_episode }}?utm_source=generator" width="100%" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="{{ ep.title }}"></iframe>
+    {% endif %}
+  </div>
+  {% endfor %}
+  <p><a href="{{ spotify_url }}" target="_blank" rel="noopener">All episodes on Spotify &rarr;</a></p>
+
+  {% assign current_hosts = pod.hosts | where: "status", "current" %}
+  {% assign former_hosts = pod.hosts | where: "status", "former" %}
+
+  <h2 class="pod-section">Hosts</h2>
+  <div class="pod-hosts">
+    {% for h in current_hosts %}{% include podcast_host.liquid h=h %}{% endfor %}
+  </div>
+
+  {% if former_hosts.size > 0 %}
+  <h2 class="pod-section">Former members</h2>
+  <div class="pod-hosts">
+    {% for h in former_hosts %}{% include podcast_host.liquid h=h %}{% endfor %}
+  </div>
+  {% endif %}
+</div>
