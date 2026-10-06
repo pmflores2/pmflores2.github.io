@@ -2,22 +2,39 @@
 layout: page
 permalink: /publications/
 title: publications
-description: collection of preprints, journal articles, and conference proceedings 
+description: collection of preprints, journal articles, and conference proceedings
 nav: true
 nav_order: 1
 ---
 
 <!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature -->
-
 {% include bib_search.liquid %}
 
+<div class="publication-groups">
 
-<div class="publications">
+  <details class="publication-dropdown" open>
+    <summary>Publications</summary>
 
-{% bibliography %}
+    <div class="publications">
+      {% bibliography --query @*[category=publication] %}
+    </div>
+  </details>
+
+  <details class="publication-dropdown">
+    <summary>Preprints</summary>
+
+    <div class="publications">
+      {% bibliography --query @*[category=preprint] %}
+    </div>
+  </details>
+
+  <details class="publication-dropdown">
+    <summary>Proceedings</summary>
+
+    <div class="publications">
+      {% bibliography --query @*[category=proceedings] %}
+    </div>
+  </details>
 
 </div>
-
-
