@@ -262,37 +262,37 @@
   //     ]
   //   }
   // ],
-  "languages": [
-    {
-      "language": "Hiligaynon",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "Tagalog",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+  // "languages": [
+  //   {
+  //     "language": "Hiligaynon",
+  //     "fluency": "Native speaker",
+  //     "icon": ""
+  //   },
+  //   {
+  //     "language": "Tagalog",
+  //     "fluency": "Native speaker",
+  //     "icon": ""
+  //   },
+  //   {
+  //     "language": "English",
+  //     "fluency": "Fluent",
+  //     "icon": ""
+  //   }
+  // ],
+  // "interests": [
+  //   {
+  //     "name": "Photography",
+  //     "icon": "fa-solid fa-tag",
+  //     "keywords": [ 
+  //       "Quantum Mechanics",
+  //       "Quantum Computing",
+  //       "Quantum Information",
+  //       "Quantum Cryptography",
+  //       "Quantum Communication",
+  //       "Quantum Teleportation"
+  //     ]
+  //   }
+  // ],
   "references": [
     {
       "name": "Prof. Dr. Olga Smirnova",
