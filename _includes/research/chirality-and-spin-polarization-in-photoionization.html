@@ -1,4 +1,4 @@
-<div class="h3 research-subheading" role="heading" aria-level="3">Project description:</div>
+<div class="h3 research-subheading" role="heading" aria-level="3">Motivation:</div>
 
 <p>
   <strong>Chiral molecules</strong> are molecules that can exist in two mirror-image forms, much like our
@@ -24,44 +24,122 @@
   chirality in an isotropic sample.
 </p>
 
-<div class="h3 research-subheading" role="heading" aria-level="3">What we do (the technical version)</div>
+<div class="h3 research-subheading" role="heading" aria-level="3">Project Details:</div>
 
 <p>
-  The workhorse observable is <strong>photoelectron circular dichroism (PECD)</strong>: with circularly polarized
-  light, randomly oriented chiral molecules emit electrons with a forward-backward asymmetry
-  along the light's propagation direction that flips sign between enantiomers. We extend this to
-  <strong>spin-resolved one-photon ionization</strong>, within the electric-dipole approximation (no magnetic
-  interactions of the light field needed).
+  When randomly oriented chiral molecules are ionized by circularly polarized light, the angular
+  distribution of the emitted photoelectrons displays a pronounced <strong>forward-backward asymmetry
+  along the light-propagation axis, known as photoelectron circular dichroism (PECD)</strong>
+  {% cite ritchie1976 cherepkov1982 powis2000 --file references --style american-physics-society %}.
+  This asymmetry, which switches sign upon reversal of either the light helicity or the molecular
+  handedness, arises entirely within the electric-dipole approximation, and exceeds conventional
+  absorption circular dichroism by up to two orders of magnitude
+  {% cite barron2009 --file references --style american-physics-society %}. PECD was first predicted
+  theoretically in the 1970s-80s
+  {% cite ritchie1976 cherepkov1982 --file references --style american-physics-society %} and
+  detected experimentally by Böwering <em>et al.</em> in 2001
+  {% cite bowering2001 --file references --style american-physics-society %}. Since then, it has been
+  extended to multiphoton and strong-field ionization regimes
+  {% cite lux2012 lehmann2013 fanood2014 lux2016 beaulieu2016 --file references --style american-physics-society %}, and to liquid and aqueous-phase targets
+  {% cite pohl2022 stemer2025 --file references --style american-physics-society %}, and has been
+  proposed as a key mechanism in an astrophysical scenario for the origin of life's homochirality
+  {% cite hadidi2018 --file references --style american-physics-society %}. This maturity, recently
+  surveyed in Ref. {% cite sparling2025 --file references --style american-physics-society %}, makes
+  PECD the natural reference point for the present project: <strong>can molecular handedness also be
+  converted into large spin- and enantio-sensitive observables in gas-phase conditions when the
+  photoelectron spin is resolved?</strong>
 </p>
 
-<ul>
-  <li>
-    <strong>CISS as a conditioned measurement.</strong>
-    Symmetry only requires chiral molecules to support correlations between spin and
-    electron-current vectors. We show that CISS is fundamentally a <em>conditioned measurement</em>
-    of these spin-current correlations: look at the electrons with a given spin, and the chiral
-    signal appears.
-  </li>
-  <li>
-    <strong>Geometric origin.</strong>
-    The spin- and enantio-sensitive observables come from two intrinsic mechanisms, quantified by
-    two pseudovectors built from the geometry of the photoionization dipoles in real space and in
-    spin space, plus an extrinsic directional bias set by the light polarization. This lets us
-    revisit Cherepkov's 1983 prediction of ten independent parameters and reduce them to moments
-    of three pseudovectors.
-  </li>
-  <li>
-    <strong>New chiral observables.</strong>
-    In a synthetic chiral argon toy model, the spin-polarized signals are comparable to PECD and
-    can even exceed it. They include enantio-sensitive spin vortices in the plane of the light
-    polarization that rotate in opposite directions for opposite enantiomers.
-  </li>
-  <li>
-    <strong>Spin and orientation.</strong>
-    Related work (the "molecular compass") connects the photoelectron spin to the orientation of
-    the remaining cation, in an enantio-sensitive way.
-  </li>
-</ul>
+<p>
+  This question is closely related to <strong>chirality-induced spin selectivity (CISS), which
+  describes a broad range of phenomena wherein molecular handedness governs spin
+  polarization</strong>
+  {% cite bloom2024 evers2022 naaman2015 bloom2026 --file references --style american-physics-society %}. First observed in spin-dependent electron transmission through organized films of chiral
+  molecules by Ray <em>et al.</em> in 1999
+  {% cite ray1999 gohler2011 --file references --style american-physics-society %}, CISS has
+  attracted considerable attention because of its potential applications in molecular spintronics,
+  enantioselective chemistry, catalysis, and energy conversion
+  {% cite bloom2024 naaman2015 bloom2026 firouzeh2024 --file references --style american-physics-society %}. <strong>Despite preceding the first gas-phase detection of PECD</strong> by Böwering <em>et
+  al.</em> in 2001 {% cite bowering2001 --file references --style american-physics-society %}, the
+  theoretical development of CISS has followed a markedly different trajectory. PECD is now
+  understood within an electric-dipole photoionization framework, arising from interference between
+  the partial waves of the outgoing photoelectron whose relative phases are shaped by the chiral
+  molecular potential
+  {% cite ritchie1976 cherepkov1982 powis2000 barron2009 bowering2001 sparling2025 --file references --style american-physics-society %}. By contrast, <strong>a microscopic theory of CISS remains incomplete</strong> since the
+  experimentally reported spin polarizations are often much larger than expected from the weak
+  intrinsic spin-orbit coupling of light-element organic molecules
+  {% cite bloom2024 evers2022 --file references --style american-physics-society %}. This discrepancy
+  has motivated a broad range of proposed mechanisms, including helical scattering potentials
+  {% cite yeganeh2009 gutierrez2012 medina2015 --file references --style american-physics-society %},
+  geometry-induced effective spin-orbit coupling
+  {% cite shitade2020 --file references --style american-physics-society %}, vibronic and polaronic
+  effects {% cite zhang2020 klein2023 rudge2025 --file references --style american-physics-society %}, and electron correlations
+  {% cite fransson2019 xu2024 --file references --style american-physics-society %} among many others
+  {% cite nuomin2026 --file references --style american-physics-society %}, yet there is still no
+  consensus on which mechanisms are essential in different experimental settings
+  {% cite bloom2024 evers2022 naaman2015 bloom2026 --file references --style american-physics-society %}.
+</p>
+
+<p>
+  The interpretation of CISS signals in experiments is also nontrivial. Direct measurements typically
+  rely on spin polarimetry, e.g., Mott polarimetry, which requires ordered molecular films, surfaces,
+  or junction-like geometries {% cite gohler2011 --file references --style american-physics-society %}. Indirect measurements, e.g., magnetoresistance measurements, can access CISS-related effects in
+  device-relevant settings, but the measured signal is then influenced not only by molecular
+  chirality but also by ferromagnetic contacts, substrate spin-orbit coupling, molecule-surface
+  hybridization, interfacial electric fields, molecular packing, and device geometry
+  {% cite bloom2024 evers2022 naaman2015 bloom2026 firouzeh2024 nuomin2026 liu2023 --file references --style american-physics-society %}. <strong>Disentangling intrinsic molecular spin selectivity from environmental and interfacial
+  amplification therefore remains one of the central challenges of the field.</strong>
+</p>
+
+<p>
+  <strong>These challenges motivate the current project to consider chiral molecules in gas phase
+  where substrate, interface, contact, and molecular-packing effects are absent.</strong> This
+  direction has important <strong>historical precedent in the gas-phase electron-scattering
+  experiments</strong> of Farago, Kessler, and co-workers, which predate the modern CISS literature
+  {% cite campbell1985 mayer1995 mayer1996 nolting1997 busalla1999 musigmann1999 --file references --style american-physics-society %}. These experiments established that spin-polarized electrons interact differently with opposite
+  enantiomers, but also showed that the corresponding asymmetries in isotropic gas-phase samples are
+  very small, typically of order (10<sup>-4</sup>), and are enhanced in molecules containing heavy
+  atoms, where spin-orbit coupling is stronger
+  {% cite campbell1985 mayer1995 mayer1996 --file references --style american-physics-society %}.
+  Further theoretical work showed that oriented molecular targets can amplify spin-dependent chiral
+  asymmetries {% cite nolting1997 --file references --style american-physics-society %}, pointing to
+  a central question in CISS: is large spin selectivity an intrinsic single-molecule response, or
+  does it require amplification by molecular orientation, interfaces, and transport geometry?
+</p>
+
+<p>
+  Spin-resolved photoionization of gas-phase chiral molecules thereby presents a complementary route
+  to address this question. As in PECD where the momentum of the outgoing photoelectron can be
+  correlated to the light propagation axis, including the photoelectron spin opens a larger class of
+  symmetry-allowed spin- and enantio-sensitive observables. <strong>Spin-resolved photoionization is
+  thus uniquely positioned between PECD and CISS: it retains the clean, substrate-free conditions
+  that makes PECD a benchmark probe of molecular chirality while also addressing the spin degree of
+  freedom that lies at the heart of CISS.</strong> The theoretical foundations for this direction has
+  been previously considered by Cherepkov for one-photon ionization
+  {% cite cherepkov1983 --file references --style american-physics-society %}. Recent work on
+  spin-polarized PECD has demonstrated the promise of this direction in strong-field multiphoton
+  ionization, i.e., for randomly oriented 1-iodo-2-methylbutane enantiomers, a 10% spin polarization
+  was reported, albeit not enantio-sensitive while the same framework predicts a 15% spin-dependent,
+  enantio-sensitive PECD for uniaxially oriented molecules
+  {% cite artemyev2024 --file references --style american-physics-society %}.
+</p>
+
+<p>
+  Building on these foundations, our work revisits spin-resolved one-photon ionization of randomly
+  oriented chiral molecules and identifies the <strong>universal geometric mechanisms</strong> that generate
+  large spin- and enantio-sensitive observables within the electric-dipole regime (see the
+  publications below). These observables are governed by <strong>pseudovectors</strong> stemming from the
+  geometric properties of the photoionization dipoles in real space and in spin space, providing a
+  compact physical picture that connects the established PECD framework to the spin selectivity at
+  the heart of CISS.
+</p>
+
+<p>
+  Equivalently, chiral molecules possess an intrinsic <strong>&ldquo;compass axis&rdquo;</strong> that aligns the
+  electron spin without any magnetic field. For a single chiral molecule fixed in space, this compass
+  orients the spin of the emitted (or excited) electron differently for opposite enantiomers &mdash; the
+  same kind of enantio-sensitive spin polarization observed in the CISS effect.
+</p>
 
 <div class="h3 research-subheading" role="heading" aria-level="3">Publications</div>
 
@@ -70,21 +148,35 @@
     <u>P. C. M. Flores</u>, S. Carlström, S. Patchkovskii, M. Ivanov, A. F. Ordonez, O. Smirnova,
     <em>Geometric mechanisms enabling spin- and enantio-sensitive observables in one-photon
     ionization of chiral molecules</em>, <a href="https://journals.aps.org/pra/abstract/10.1103/cqqs-77rg">Phys. Rev. A 114, 013110 (2026)</a>.
+    <ul>
+      <li>Spin- and enantio-sensitive observables in one-photon ionization of randomly oriented chiral molecules arise purely from the electric-dipole interaction.</li>
+      <li>They are governed by the geometric properties of the photoionization dipoles in real space and in spin space.</li>
+      <li>All allowed spin- and momentum-resolved observables reduce to moments of three pseudovectors, making spin-resolved photoionization a fundamentally richer problem than PECD.</li>
+    </ul>
   </li>
   <li>
     <u>P. C. M. Flores</u>, S. Carlström, S. Patchkovskii, M. Ivanov, A. F. Ordonez, O. Smirnova,
     <em>Spin-current correlations in photoionization of chiral molecules</em>,
     <a href="https://arxiv.org/abs/2505.23460">arXiv:2505.23460</a>
+    <ul>
+      <li>The photoelectron current is enantio-sensitively &ldquo;locked&rdquo; to the photoelectron spin, mediated by two complementary geometric mechanisms.</li>
+      <li>The strength of the spin-current correlations is a molecular pseudoscalar: the flux of the momentum-resolved Bloch vector through the energy shell.</li>
+      <li>Photon spin adds triple correlations between the photoelectron momentum, its spin and the photon spin.</li>
+    </ul>
   </li>
   <li>
     <u>P. C. M. Flores</u>, S. Carlström, S. Patchkovskii, M. Ivanov, V. Mujica, A. F. Ordonez,
     O. Smirnova, <em>Enantiosensitive molecular compass</em>,
     <a href="https://arxiv.org/abs/2505.22433">arXiv:2505.22433</a>
+    <ul>
+      <li>Spin-orbit coupling in electric-dipole photoionization creates correlations between molecular orientation and photoelectron spin that survive complete isotropic averaging, identified as the microscopic origin of CISS in photoionization.</li>
+      <li>Selecting the photoelectron spin orients the cation ensemble (spin-orientation locking), whereas selecting molecular orientation produces CISS; both share one correlation strength set by the molecular-frame photoionization Bloch vector, the enantio-sensitive molecular compass.</li>
+    </ul>
   </li>
 </ul>
 
 <p>
-   Work done at the Max Born Institute, Berlin, in the Strong Field Theory group with
+   Work done at the <a href="https://mbi-berlin.de/">Max Born Institute</a>, Berlin, in the Strong Field Theory group with
   <strong>Prof. Dr. Olga Smirnova</strong>, supported by her
   <strong>ERC Advanced Grant</strong>
   <a href="https://cordis.europa.eu/project/id/101054696" target="_blank" rel="noopener">
@@ -92,3 +184,11 @@
   </a>
   (Grant Agreement No. 101054696).
 </p>
+
+<details class="research-references-dropdown">
+  <summary><strong>References</strong></summary>
+
+  <div class="research-references">
+    {% bibliography --file references --cited_in_order --style american-physics-society --group_by none --template bib_plain %}
+  </div>
+</details>

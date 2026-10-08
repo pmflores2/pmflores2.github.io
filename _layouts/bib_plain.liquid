@@ -1,0 +1,4 @@
+---
+---
+{%- assign ref_label = reference | split: ']' | first | append: ']' -%}
+<span id="{{ entry.key }}"></span>{{ ref_label }}&nbsp;{{ reference | remove_first: ref_label }}

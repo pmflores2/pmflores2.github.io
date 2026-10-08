@@ -1,0 +1,489 @@
+% Encoding: UTF-8
+@article{ritchie1976,
+  author  = {Ritchie, B.},
+  title   = {Theory of the angular distribution of photoelectrons ejected from optically active molecules and molecular negative ions},
+  journal = {Physical Review A},
+  volume  = {13},
+  number  = {4},
+  pages   = {1411},
+  year    = {1976},
+  doi     = {10.1103/PhysRevA.13.1411}
+}
+
+@article{cherepkov1982,
+  author  = {Cherepkov, N. A.},
+  title   = {Circular dichroism of molecules in the continuous absorption region},
+  journal = {Chemical Physics Letters},
+  volume  = {87},
+  number  = {4},
+  pages   = {344--348},
+  year    = {1982},
+  doi     = {10.1016/0009-2614(82)83600-2}
+}
+
+@article{powis2000,
+  author  = {Powis, I.},
+  title   = {Photoelectron circular dichroism of the randomly oriented chiral molecules glyceraldehyde and lactic acid},
+  journal = {The Journal of Chemical Physics},
+  volume  = {112},
+  number  = {1},
+  pages   = {301--310},
+  year    = {2000},
+  doi     = {10.1063/1.480581}
+}
+
+@book{barron2009,
+  author    = {Barron, L. D.},
+  title     = {Molecular Light Scattering and Optical Activity},
+  publisher = {Cambridge University Press},
+  year      = {2009},
+  doi       = {10.1017/CBO9780511535468}
+}
+
+@article{bowering2001,
+  author  = {B{\"o}wering, N. and Lischke, T. and Schmidtke, B. and M{\"u}ller, N. and Khalil, T. and Heinzmann, U.},
+  title   = {Asymmetry in photoelectron emission from chiral molecules induced by circularly polarized light},
+  journal = {Physical Review Letters},
+  volume  = {86},
+  number  = {7},
+  pages   = {1187},
+  year    = {2001},
+  doi     = {10.1103/PhysRevLett.86.1187}
+}
+
+@article{lux2012,
+  author  = {Lux, C. and Wollenhaupt, M. and Sarpe, C. and Baumert, T.},
+  title   = {Circular dichroism in the photoelectron angular distributions of camphor and fenchone from multiphoton ionization with femtosecond laser pulses},
+  journal = {Angewandte Chemie International Edition},
+  volume  = {51},
+  number  = {20},
+  pages   = {5001--5005},
+  year    = {2012},
+  doi     = {10.1002/anie.201109035}
+}
+
+@article{lehmann2013,
+  author  = {Lehmann, C. S. and Ram, N. B. and Powis, I. and Janssen, M. H. M.},
+  title   = {Imaging photoelectron circular dichroism of chiral molecules by femtosecond multiphoton coincidence detection},
+  journal = {The Journal of Chemical Physics},
+  volume  = {139},
+  number  = {23},
+  year    = {2013},
+  doi     = {10.1063/1.4844295}
+}
+
+@article{fanood2014,
+  author  = {Fanood, M. M. R. and Powis, I. and Janssen, M. H. M.},
+  title   = {Chiral asymmetry in the multiphoton ionization of methyloxirane using femtosecond electron--ion coincidence imaging},
+  journal = {The Journal of Physical Chemistry A},
+  volume  = {118},
+  number  = {49},
+  pages   = {11541--11546},
+  year    = {2014},
+  doi     = {10.1021/jp5113125}
+}
+
+@article{lux2016,
+  author  = {Lux, C. and Senftleben, A. and Sarpe, C. and Wollenhaupt, M. and Baumert, T.},
+  title   = {Photoelectron circular dichroism observed in the above-threshold ionization signal from chiral molecules with femtosecond laser pulses},
+  journal = {Journal of Physics B},
+  volume  = {49},
+  number  = {2},
+  pages   = {02LT01},
+  year    = {2016},
+  doi     = {10.1088/0953-4075/49/2/02LT01}
+}
+
+@article{beaulieu2016,
+  author  = {Beaulieu, S. and Ferr{\'e}, A. and G{\'e}neaux, R. and Canonge, R. and Descamps, D. and Fabre, B. and others},
+  title   = {Universality of photoelectron circular dichroism in the photoionization of chiral molecules},
+  journal = {New Journal of Physics},
+  volume  = {18},
+  number  = {10},
+  pages   = {102002},
+  year    = {2016},
+  doi     = {10.1088/1367-2630/18/10/102002}
+}
+
+@article{pohl2022,
+  author  = {Pohl, M. N. and Malerz, S. and Trinter, F. and Lee, C. and Kolbeck, C. and Wilkinson, I. and others},
+  title   = {Photoelectron circular dichroism in angle-resolved photoemission from liquid fenchone},
+  journal = {Physical Chemistry Chemical Physics},
+  volume  = {24},
+  number  = {14},
+  pages   = {8081--8092},
+  year    = {2022},
+  doi     = {10.1039/D1CP05748K}
+}
+
+@article{stemer2025,
+  author  = {Stemer, D. and Th{\"u}rmer, S. and Trinter, F. and Hergenhahn, U. and Pugini, M. and Credidio, B. and others},
+  title   = {Photoelectron circular dichroism of aqueous-phase alanine},
+  journal = {Chemical Science},
+  volume  = {16},
+  number  = {20},
+  pages   = {8637--8647},
+  year    = {2025},
+  doi     = {10.1039/D5SC00167F}
+}
+
+@article{hadidi2018,
+  author  = {Hadidi, R. and Bozanic, D. K. and Garcia, G. A. and Nahon, L.},
+  title   = {Electron asymmetries in the photoionization of chiral molecules: possible astrophysical implications},
+  journal = {Advances in Physics: X},
+  volume  = {3},
+  number  = {1},
+  pages   = {1477530},
+  year    = {2018},
+  doi     = {10.1080/23746149.2018.1477530}
+}
+
+@article{sparling2025,
+  author  = {Sparling, C. and Townsend, D.},
+  title   = {Two decades of imaging photoelectron circular dichroism: From first principles to future perspectives},
+  journal = {Physical Chemistry Chemical Physics},
+  volume  = {27},
+  number  = {6},
+  pages   = {2888--2907},
+  year    = {2025},
+  doi     = {10.1039/D4CP03770G}
+}
+
+@article{bloom2024,
+  author  = {Bloom, B. P. and Paltiel, Y. and Naaman, R. and Waldeck, D. H.},
+  title   = {Chiral induced spin selectivity},
+  journal = {Chemical Reviews},
+  volume  = {124},
+  number  = {4},
+  pages   = {1950--1991},
+  year    = {2024},
+  doi     = {10.1021/acs.chemrev.3c00661}
+}
+
+@article{evers2022,
+  author  = {Evers, F. and Aharony, A. and Bar-Gill, N. and Entin-Wohlman, O. and Hedeg{\aa}rd, P. and Hod, O. and others},
+  title   = {Theory of chirality induced spin selectivity: Progress and challenges},
+  journal = {Advanced Materials},
+  volume  = {34},
+  number  = {13},
+  pages   = {2106629},
+  year    = {2022},
+  doi     = {10.1002/adma.202106629}
+}
+
+@article{naaman2015,
+  author  = {Naaman, R. and Waldeck, D. H.},
+  title   = {Spintronics and chirality: Spin selectivity in electron transport through chiral molecules},
+  journal = {Annual Review of Physical Chemistry},
+  volume  = {66},
+  number  = {1},
+  pages   = {263--281},
+  year    = {2015},
+  doi     = {10.1146/annurev-physchem-040214-121554}
+}
+
+@article{bloom2026,
+  author  = {Bloom, B. P. and Lingenfelder, M. and Naaman, R. and Sun, D. and Waldeck, D. H.},
+  title   = {Using chiral-induced spin selectivity as a tool to improve materials and processes for energy science},
+  journal = {Nature Reviews Materials},
+  volume  = {11},
+  number  = {3},
+  pages   = {213--225},
+  year    = {2026},
+  doi     = {10.1038/s41578-025-00864-5}
+}
+
+@article{ray1999,
+  author  = {Ray, K. and Ananthavel, S. P. and Waldeck, D. H. and Naaman, R.},
+  title   = {Asymmetric scattering of polarized electrons by organized organic films of chiral molecules},
+  journal = {Science},
+  volume  = {283},
+  number  = {5403},
+  pages   = {814--816},
+  year    = {1999},
+  doi     = {10.1126/science.283.5403.814}
+}
+
+@article{gohler2011,
+  author  = {G{\"o}hler, B. and Hamelbeck, V. and Markus, T. Z. and Kettner, M. and Hanne, G. F. and Vager, Z. and others},
+  title   = {Spin selectivity in electron transmission through self-assembled monolayers of double-stranded {DNA}},
+  journal = {Science},
+  volume  = {331},
+  number  = {6019},
+  pages   = {894--897},
+  year    = {2011},
+  doi     = {10.1126/science.1199339}
+}
+
+@article{firouzeh2024,
+  author  = {Firouzeh, S. and Hossain, M. A. and Cuerva, J. M. and {\'A}lvarez de Cienfuegos, L. and Pramanik, S.},
+  title   = {Chirality-induced spin selectivity in composite materials: a device perspective},
+  journal = {Accounts of Chemical Research},
+  volume  = {57},
+  number  = {10},
+  pages   = {1478--1487},
+  year    = {2024},
+  doi     = {10.1021/acs.accounts.4c00077}
+}
+
+@article{yeganeh2009,
+  author  = {Yeganeh, S. and Ratner, M. A. and Medina, E. and Mujica, V.},
+  title   = {Chiral electron transport: Scattering through helical potentials},
+  journal = {The Journal of Chemical Physics},
+  volume  = {131},
+  number  = {1},
+  year    = {2009},
+  doi     = {10.1063/1.3167404}
+}
+
+@article{gutierrez2012,
+  author  = {Gutierrez, R. and D{\'i}az, E. and Naaman, R. and Cuniberti, G.},
+  title   = {Spin-selective transport through helical molecular systems},
+  journal = {Physical Review B},
+  volume  = {85},
+  number  = {8},
+  pages   = {081404},
+  year    = {2012},
+  doi     = {10.1103/PhysRevB.85.081404}
+}
+
+@article{medina2015,
+  author  = {Medina, E. and Gonz{\'a}lez-Arraga, L. A. and Finkelstein-Shapiro, D. and Berche, B. and Mujica, V.},
+  title   = {Continuum model for chiral induced spin selectivity in helical molecules},
+  journal = {The Journal of Chemical Physics},
+  volume  = {142},
+  number  = {19},
+  year    = {2015},
+  doi     = {10.1063/1.4921310}
+}
+
+@article{shitade2020,
+  author  = {Shitade, A. and Minamitani, E.},
+  title   = {Geometric spin--orbit coupling and chirality-induced spin selectivity},
+  journal = {New Journal of Physics},
+  volume  = {22},
+  number  = {11},
+  pages   = {113023},
+  year    = {2020},
+  doi     = {10.1088/1367-2630/abc920}
+}
+
+@article{zhang2020,
+  author  = {Zhang, L. and Hao, Y. and Qin, W. and Xie, S. and Qu, F.},
+  title   = {Chiral-induced spin selectivity: A polaron transport model},
+  journal = {Physical Review B},
+  volume  = {102},
+  number  = {21},
+  pages   = {214303},
+  year    = {2020},
+  doi     = {10.1103/PhysRevB.102.214303}
+}
+
+@article{klein2023,
+  author  = {Klein, D. and Michaeli, K.},
+  title   = {Giant chirality-induced spin selectivity of polarons},
+  journal = {Physical Review B},
+  volume  = {107},
+  number  = {4},
+  pages   = {045404},
+  year    = {2023},
+  doi     = {10.1103/PhysRevB.107.045404}
+}
+
+@article{rudge2025,
+  author  = {Rudge, S. L. and Kaspar, C. and Smorka, R. and Preston, R. J. and Subotnik, J. and Thoss, M.},
+  title   = {The role of quantum vibronic effects in the spin polarization of charge transport through molecular junctions},
+  journal = {The Journal of Chemical Physics},
+  volume  = {162},
+  number  = {24},
+  year    = {2025},
+  doi     = {10.1063/5.0270610}
+}
+
+@article{fransson2019,
+  author  = {Fransson, J.},
+  title   = {Chirality-induced spin selectivity: The role of electron correlations},
+  journal = {The Journal of Physical Chemistry Letters},
+  volume  = {10},
+  number  = {22},
+  pages   = {7126--7132},
+  year    = {2019},
+  doi     = {10.1021/acs.jpclett.9b02929}
+}
+
+@article{xu2024,
+  author  = {Xu, M. and Chen, Y.},
+  title   = {Enhancement of chirality induced spin selectivity by strong electron correlations},
+  journal = {Physical Review B},
+  volume  = {110},
+  number  = {23},
+  pages   = {235145},
+  year    = {2024},
+  doi     = {10.1103/PhysRevB.110.235145}
+}
+
+@article{nuomin2026,
+  author  = {Nuomin, H. and Charyshnikova, Z. and Song, F. F. and Sun, R. and Nabei, Y. and Singh, N. and others},
+  title   = {Theories of Chiral-Induced Spin Selectivity: A Pedagogical Overview},
+  journal = {Annual Review of Physical Chemistry},
+  volume  = {77},
+  number  = {1},
+  pages   = {513--537},
+  year    = {2026},
+  doi     = {10.1146/annurev-physchem-083122-125320}
+}
+
+@article{liu2023,
+  author  = {Liu, T. and Weiss, P. S.},
+  title   = {Spin polarization in transport studies of chirality-induced spin selectivity},
+  journal = {ACS Nano},
+  volume  = {17},
+  number  = {20},
+  pages   = {19502--19507},
+  year    = {2023},
+  doi     = {10.1021/acsnano.3c06133}
+}
+
+@article{campbell1985,
+  author  = {Campbell, D. M. and Farago, P. S.},
+  title   = {Spin-dependent electron scattering from optically active molecules},
+  journal = {Nature},
+  volume  = {318},
+  number  = {6041},
+  pages   = {52--53},
+  year    = {1985},
+  doi     = {10.1038/318052a0}
+}
+
+@article{mayer1995,
+  author  = {Mayer, S. and Kessler, J.},
+  title   = {Experimental verification of electron optic dichroism},
+  journal = {Physical Review Letters},
+  volume  = {74},
+  number  = {24},
+  pages   = {4803},
+  year    = {1995},
+  doi     = {10.1103/PhysRevLett.74.4803}
+}
+
+@article{mayer1996,
+  author  = {Mayer, S. and Nolting, C. and Kessler, J.},
+  title   = {Electron scattering from chiral molecules},
+  journal = {Journal of Physics B: Atomic, Molecular and Optical Physics},
+  volume  = {29},
+  number  = {15},
+  pages   = {3497--3511},
+  year    = {1996},
+  doi     = {10.1088/0953-4075/29/15/021}
+}
+
+@article{nolting1997,
+  author  = {Nolting, C. and Mayer, S. and Kessler, J.},
+  title   = {Electron dichroism-new data and an experimental cross-check},
+  journal = {Journal of Physics B: Atomic, Molecular and Optical Physics},
+  volume  = {30},
+  number  = {23},
+  pages   = {5491--5499},
+  year    = {1997},
+  doi     = {10.1088/0953-4075/30/23/014}
+}
+
+@article{busalla1999,
+  author  = {Busalla, A. and Blum, K. and Thompson, D. G.},
+  title   = {Differential cross section for collisions between electrons and oriented chiral molecules},
+  journal = {Physical Review Letters},
+  volume  = {83},
+  number  = {8},
+  pages   = {1562},
+  year    = {1999},
+  doi     = {10.1103/PhysRevLett.83.1562}
+}
+
+@article{musigmann1999,
+  author  = {Musigmann, M. and Busalla, A. and Blum, K. and Thompson, D. G.},
+  title   = {Asymmetries in collisions between electrons and oriented chiral molecules},
+  journal = {Journal of Physics B: Atomic, Molecular and Optical Physics},
+  volume  = {32},
+  number  = {16},
+  pages   = {4117--4128},
+  year    = {1999},
+  doi     = {10.1088/0953-4075/32/16/311}
+}
+
+@article{cherepkov1983,
+  author  = {Cherepkov, N. A.},
+  title   = {Manifestations of the optical activity of molecules in the dipole photoeffect},
+  journal = {Journal of Physics B},
+  volume  = {16},
+  number  = {9},
+  pages   = {1543--1548},
+  year    = {1983},
+  doi     = {10.1088/0022-3700/16/9/013}
+}
+
+@article{artemyev2024,
+  author  = {Artemyev, A. N. and Tomar, R. and Trabert, D. and Kargin, D. and Kutscher, E. and Sch{\"o}ffler, M. S. and others},
+  title   = {Photoelectron circular dichroism in the spin-polarized spectra of chiral molecules},
+  journal = {Physical Review Letters},
+  volume  = {132},
+  number  = {12},
+  pages   = {123202},
+  year    = {2024},
+  doi     = {10.1103/PhysRevLett.132.123202}
+}
+
+@Article{chandra1989photoelectron,
+  author    = {Chandra, N},
+  title     = {Photoelectron spectroscopic studies of polyatomic molecules: Theory for spin polarization},
+  journal   = {Physical Review A},
+  year      = {1989},
+  volume    = {40},
+  number    = {2},
+  pages     = {752},
+  publisher = {APS},
+}
+
+@Article{chandra1989photoelectronTd,
+  author    = {Chandra, N},
+  title     = {Photoelectron spectroscopic studies of polyatomic molecules: Spin-polarized electrons from T d point symmetry group molecules},
+  journal   = {Physical Review A},
+  year      = {1989},
+  volume    = {40},
+  number    = {2},
+  pages     = {768},
+  publisher = {APS},
+}
+
+@Article{cherepkov1991comment,
+  author    = {Cherepkov, NA and Kuznetsov, VV},
+  title     = {Comment on ‘‘Photoelectron spectroscopic studies of polyatomic molecules: Theory for spin polarization’’},
+  journal   = {Physical Review A},
+  year      = {1991},
+  volume    = {44},
+  number    = {3},
+  pages     = {2220},
+  publisher = {APS},
+}
+
+@Article{schonhense1984spin,
+  author    = {Sch{\"o}nhense, G and Dzidzonou, V and Kaesdorf, S and Heinzmann, Ulrich},
+  title     = {Spin-Polarized Photoelectrons from Randomly Oriented Halogen Molecules by Unpolarized Radiation},
+  journal   = {Physical Review Letters},
+  year      = {1984},
+  volume    = {52},
+  number    = {10},
+  pages     = {811},
+  publisher = {APS},
+}
+
+@Article{heinzmann1981spin,
+  author  = {Heinzmann, Ulrich and Osterheld, B and Schafers, F and Schonhense, G},
+  title   = {Spin-polarised photoelectrons produced from CH3Br molecules by unpolarised and circularly polarised vuv radiation},
+  journal = {Journal of Physics B: Atomic and Molecular Physics},
+  year    = {1981},
+  volume  = {14},
+  number  = {3},
+  pages   = {L79--L84},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

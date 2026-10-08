@@ -125,3 +125,5 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 </script>
+
+<script src="{{ '/assets/js/cite-merge.js' | relative_url }}"></script>
