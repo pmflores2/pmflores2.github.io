@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /scicomm/behind-the-science/
+# permalink: /scicomm/behind-the-science/
 title: Behind The Science Podcast
 description: guest episode
 img: /assets/img/bts.jpeg

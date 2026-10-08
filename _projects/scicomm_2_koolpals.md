@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /scicomm/koolpals/
+# permalink: /scicomm/koolpals/
 title: The KoolPals 
 description: guest episode
 img: /assets/img/koolpals.jpeg

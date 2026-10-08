@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /volunteer/pshs-wvc/
+# permalink: /volunteer/pshs-wvc/
 title: Philippine Science High School
 description: career talk
 img: /assets/img/pshs-wvc.jpg

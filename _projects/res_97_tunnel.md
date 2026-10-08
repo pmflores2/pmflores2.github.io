@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /phd/
+# permalink: /phd/
 title: Tunneling time problem
 description: doctoral dissertation
 img: /assets/img/defense1.jpg

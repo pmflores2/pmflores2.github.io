@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 permalink: /masters/
 title: Quantum free fall
@@ -25,4 +25,4 @@ I was able to publish a paper on [Physical Review A](https://journals.aps.org/pr
 </div>
 <div class="caption">
     Selfie with `Y. Aharonov` during TFQM.
-</div>
+</div> -->

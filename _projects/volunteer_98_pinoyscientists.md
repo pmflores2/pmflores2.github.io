@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /volunteer/pinoy-scientists/
+# permalink: /volunteer/pinoy-scientists/
 title: Pinoy Scientists
 description: spotlighting Pinoy scientists, one post at a time
 img: /assets/img/pinoy-scientists.jpg

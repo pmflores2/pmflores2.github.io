@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 permalink: /phd/
 title: Tunneling time problem
@@ -16,4 +16,4 @@ wherein, $$x$$ is the arrival point, $$q$$ is the initial position, $$\mu_o$$ is
 
 The main result of my Dissertation is summarized in this <a href="https://iopscience.iop.org/article/10.1209/0295-5075/acad9a">Letter</a> while the full details are outlined in this <a href="https://arxiv.org/abs/2212.00343">preprint</a>. Moreover, a detailed study of the free case can be found <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.062208">here</a>.
 
-I was also able to present my research during the poster session of the conference <a href="https://tqt2022conference.wordpress.com/">Time in Quantum Theory 2022</a> which was held at the Technical University of Vienna. 
+I was also able to present my research during the poster session of the conference <a href="https://tqt2022conference.wordpress.com/">Time in Quantum Theory 2022</a> which was held at the Technical University of Vienna.  -->

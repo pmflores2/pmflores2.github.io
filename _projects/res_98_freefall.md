@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /masters/
+# permalink: /masters/
 title: Quantum free fall
 description: master's thesis
 img: /assets/img/measurementmodel.jpg

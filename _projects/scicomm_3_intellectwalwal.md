@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /scicomm/intellectwalwal/
+# permalink: /scicomm/intellectwalwal/
 title: Intellectwalwal
 description: guest episode
 img: /assets/img/intellectwalwal.jpg

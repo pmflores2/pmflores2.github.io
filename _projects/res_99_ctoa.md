@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /bachelor/
+# permalink: /bachelor/
 title: Confined time-of-arrival operators
 description: bachelor's thesis
 img: /assets/img/undergrad1.jpg

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /volunteer/gradmap/
+# permalink: /volunteer/gradmap/
 title: GradMAP Philippines
 description: STEM mentorship network
 img: /assets/img/gradmap.jpg

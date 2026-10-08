@@ -1,6 +1,6 @@
 ---
 layout: podcast
-permalink: /scicomm/
+# permalink: /scicomm/
 title: Liknayan Podcast
 description: inspiring the next generation of Filipino physicists
 img: /assets/img/logo.png

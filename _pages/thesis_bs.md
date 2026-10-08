@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 permalink: /bachelor/
 title: Confined time-of-arrival operators
@@ -31,4 +31,4 @@ I was able to publish a paper on [Physical Review A](https://journals.aps.org/pr
 </div>
 
 
-
+ -->
