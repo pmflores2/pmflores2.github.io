@@ -1,63 +1,23 @@
-<div class="h3 research-subheading" role="heading" aria-level="3">The big picture</div>
+<div class="h3 research-subheading" role="heading" aria-level="3">Motivation:</div>
 
 <p>
-  In everyday life, "when did it arrive?" is an easy question. In quantum mechanics it is
-  surprisingly hard. Position, momentum and energy are all <em>observables</em>, things you can
-  represent with an operator and measure, but time is treated as a background parameter and
-  there is no obvious "clock operator". Yet detectors click at definite moments, so the arrival
-  of a quantum particle must be describable somehow.
+  Classical mechanics treats time as a parameter that marks the evolution of a system, a label with respect to which change is described. It is the variable 't' that we use in Newton's equation of motion to describe the change in a particle's position, and in Maxwell's equations to describe the evolution of electromagnetic fields. While the concept of time as a parameter in classical mechanics is largely uncontroversial, it carries with it several fundamental questions, such as the apparent asymmetry in the direction of time and the logical inconsistencies associated with traveling backwards in time. The former is particularly intriguing because the fundamental equations of classical mechanics are generally invariant under time reversal, whereas our everyday experience distinguishes a definite direction of time. The discovery of quantum mechanics has introduced yet another fundamental difficulty concerning the role of time, commonly referred to as the quantum time problem (QTP).
 </p>
 
 <p>
-  This project (my PhD work at the University of the Philippines Diliman, with Eric Galapon)
+  A simple example that illustrates the QTP is to ask: when does a particle arrive at a particular location? In classical mechanics, this question can be answered by inverting the particle's equation of motion. For instance, a freely moving particle with constant velocity arrives at a given location after a time equal to the distance traveled divided by its velocity. At first glance, the problem appears straightforward. However, quantum mechanics offers no universally accepted prescription for answering the same question. Unlike a classical particle, a quantum particle is described by a wavefunction that can be spatially delocalized, making it impossible, in general, to assign a definite trajectory and consequently a unique arrival time. Instead, one expects the possible arrival times to be described probabilistically.
+</p>
+
+<p>
+  The difficulty becomes more apparent when we consider the fundamentally different roles played by time in classical and quantum mechanics. In the standard formulation of quantum mechanics, time remains an external parameter that describes the evolution of a quantum state, rather than an observable represented by an operator. This is in contrast to physical quantities such as position, momentum, and energy, which are represented by operators whose measurement outcomes are governed by the postulates of quantum mechanics. Yet classical intuition tells us that time can certainly be measured using a clock. If the time at which a quantum particle arrives at a particular location is a measurable physical quantity, how should we describe its possible measurement outcomes and their corresponding probabilities? More importantly, can we construct a quantum mechanical operator that represents the time of arrival?
+</p>
+
+<p>
+  This project (my Bachelor to PhD work at the University of the Philippines Diliman, with Eric Galapon)
   builds <strong>time-of-arrival (TOA) operators</strong>: we take the classical formula for when a
   particle reaches a point and turn it into a quantum operator, then ask what it predicts. Two
-  questions drove most of the work:
+  questions drove most of the work: (i) Do quantum objects fall like classical ones? and (ii) How long does quantum tunneling take? 
 </p>
-
-<ul>
-  <li>
-    <strong>How long does quantum tunneling take?</strong>
-    A particle can cross a barrier it classically cannot climb. Reported tunneling times range
-    from "finite" to "zero" depending on the method, which has been a long-standing controversy.
-    Our TOA-based analysis finds tunneling to be <strong>instantaneous</strong>, and explains the
-    seemingly contradictory results by separating <em>partial</em> and <em>full</em> tunneling
-    processes. We also checked whether instantaneity was an artifact of using non-relativistic
-    physics by repeating the analysis for relativistic particles.
-  </li>
-  <li>
-    <strong>Do quantum objects fall like classical ones?</strong>
-    Galileo's weak equivalence principle says everything falls the same way regardless of mass.
-    Using a TOA operator for a particle in free fall, we found small quantum corrections that
-    depend on mass, i.e. a quantum violation of the principle. A related paper shows how quantum
-    and classical clocks can be synchronized.
-  </li>
-</ul>
-
-<div class="h3 research-subheading" role="heading" aria-level="3">What we do (the technical version)</div>
-
-<ul>
-  <li>
-    <strong>Quantization ambiguity.</strong>
-    The classical TOA can be quantized in infinitely many ways (Weyl, Born-Jordan, and others).
-    We compare their predictions, e.g. for free fall, where different quantizations give different
-    ℏ-dependent corrections, and for tunneling, where we show the instantaneous result holds
-    within a broader class of operators.
-  </li>
-  <li>
-    <strong>Confined and relativistic operators.</strong>
-    We study confined TOA operators (compact, self-adjoint, with resolvents and covariance
-    properties we can compute), and the relativistic free-motion TOA operator for massive spin-0
-    particles, using a rigged Hilbert space extension of Razavi's operator. A modified Weyl-ordering
-    rule gives a quantized relativistic TOA operator used to compute traversal times across a
-    square barrier.
-  </li>
-  <li>
-    <strong>Quantum clocks.</strong>
-    The quantum correction to the classical arrival time can be removed up to a given order in ℏ
-    by choosing an appropriate position-dependent phase of the wavefunction.
-  </li>
-</ul>
 
 <div class="h3 research-subheading" role="heading" aria-level="3">Publications</div>
 
@@ -101,9 +61,4 @@
   </li>
 </ul>
 
-<p>
-  <em>
-    Earlier conference papers and posters (2015 to 2019) covered the resolvent and covariance
-    properties of confined TOA operators and the weak equivalence principle.
-  </em>
-</p>
+
