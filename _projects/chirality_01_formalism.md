@@ -37,16 +37,32 @@ where, $$\xi=\pm1$$ is a dichroic parameter characterizing the direction of rota
 
 Upon ionization, the photoelectron is ejected in the direction of $$\unitvec{k}^L$$ with its spin measured parallel to $$\unitvec{s}^L$$. The general description for such a process has been previously considered by Cherepkov
 {% cite cherepkov1983 --file references --style american-physics-society %}, and showed that the momentum- and spin-resolved photoionization yield $$ W^L(\unitvec{k}^L,\unitvec{s}^L) $$ can be fully characterized by ten independent parameters, i.e., 
+
 $$
-\begin{align}
-	W^{L}(\unitvec{k}^{L},\unitvec{s}^{L})= \dfrac{\sigma_{\text{cross}}}{8\pi} & \left\{ 1 - \dfrac{\beta}{2} \left[3(\unitvec{k}^L\cdot\unitvec{\Xi}^L)^{2}-1\right] + A (\unitvec{s}^L\cdot\unitvec{\Xi}^L) - \eta (\unitvec{\Xi}^L\cdot\unitvec{s}^L\times\unitvec{k}^L)(\unitvec{k}^L\cdot\unitvec{\Xi}^L) \right. \nonumber \\
-	%
-	&- \gamma \left[\frac{3}{2}(\unitvec{k}^L\cdot\unitvec{s}^L)(\unitvec{k}^L\cdot\unitvec{\Xi}^L)-\frac{1}{2}(\unitvec{s}^L\cdot\unitvec{\Xi}^L)\right] + D (\unitvec{k}^L \cdot \unitvec{\Xi}^L) + C (\unitvec{\Xi}^L\cdot\unitvec{s}^L\times\unitvec{k}^L)   \nonumber \\
-	%
-	&+ \left. B_1 (\unitvec{k}^L \cdot \unitvec{s}^L) + B_2 (\unitvec{k}^L \cdot \unitvec{\Xi}^L) (\unitvec{s}^L \cdot \unitvec{\Xi}^L) + B_3 (\unitvec{k}^L\cdot\unitvec{\Xi}^L)^{2}(\unitvec{k}^L\cdot\unitvec{s}^L) \right\},
-	\label{eq:kinematic}
-\end{align}
-$$ 
+\begin{equation}
+\label{eq:kinematic}
+\begin{aligned}
+W^{L}(\unitvec{k}^{L},\unitvec{s}^{L})
+={}& \frac{\sigma_{\text{cross}}}{8\pi}\Bigg\{
+1-\frac{\beta}{2}\left[3(\unitvec{k}^L\cdot\unitvec{\Xi}^L)^2-1\right] \\
+&+ A(\unitvec{s}^L\cdot\unitvec{\Xi}^L) \\
+&- \eta(\unitvec{\Xi}^L\cdot\unitvec{s}^L\times\unitvec{k}^L)
+   (\unitvec{k}^L\cdot\unitvec{\Xi}^L) \\
+&- \gamma\left[\frac{3}{2}(\unitvec{k}^L\cdot\unitvec{s}^L)
+   (\unitvec{k}^L\cdot\unitvec{\Xi}^L)
+   -\frac{1}{2}(\unitvec{s}^L\cdot\unitvec{\Xi}^L)\right] \\
+&+ D(\unitvec{k}^L\cdot\unitvec{\Xi}^L)
+   + C(\unitvec{\Xi}^L\cdot\unitvec{s}^L\times\unitvec{k}^L) \\
+&+ B_1(\unitvec{k}^L\cdot\unitvec{s}^L) \\
+&+ B_2(\unitvec{k}^L\cdot\unitvec{\Xi}^L)
+   (\unitvec{s}^L\cdot\unitvec{\Xi}^L) \\
+&+ B_3(\unitvec{k}^L\cdot\unitvec{\Xi}^L)^2
+   (\unitvec{k}^L\cdot\unitvec{s}^L)
+\Bigg\}.
+\end{aligned}
+\end{equation}
+$$
+
 where, $$\unitvec{\Xi}^L=\xi\unitvec{z}^L$$ is the direction of photon spin. The parameters $$\{\beta, A, \eta, \gamma \}$$ are non-zero for both atoms and molecules, and the explicit form for the atomic case are provided in Ref. {% cite cherepkov1981theory --file references --style american-physics-society %}. Meanwhile, the parameters $$\{D,C,B_1,B_2,B_3\}$$ are only non-zero for chiral molecules. Moreover, the contribution of the parameters $$\{ A, \gamma, D , C \}$$ vanishes for linearly polarized light. Cherepkov and colleagues have also calculated spin polarization in various atoms shedding light on  dynamical origins of coefficients $$\{A, \gamma\}$$  and observed excellent agreement of their calculations with the experiments; see book chapter for pertinent references {% cite book1983advances --file references --style american-physics-society %} as well as Refs. {% cite chandra1989photoelectron chandra1989photoelectronTd cherepkov1991comment schonhense1984spin heinzmann1981spin --file references --style american-physics-society %}.
 
 
