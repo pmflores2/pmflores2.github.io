@@ -16,6 +16,33 @@ $$
 \newcommand{\tj}[6]{\begin{pmatrix}#1 & #2 & #3\\ #4 & #5 & #6\end{pmatrix}}
 $$
 
+<div class="paper-highlight" style="margin:1rem 0; padding:0.6rem 0.9rem; border:1px solid var(--global-divider-color, #dee2e6); border-left:4px solid var(--global-theme-color, #b509ac); border-radius:0.4rem; background:var(--global-card-bg-color, rgba(128,128,128,0.06)); font-size:0.85rem; line-height:1.4;">
+  <div style="font-size:0.65rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--global-theme-color, #b509ac); font-weight:600; margin-bottom:0.15rem;">
+    This post describes the paper
+  </div>
+  <div style="font-size:0.95rem; font-weight:600; line-height:1.3; margin-bottom:0.2rem;">
+    Geometric mechanisms enabling spin- and enantio-sensitive observables in one-photon ionization of chiral molecules
+  </div>
+  <div style="margin-bottom:0.15rem;">
+    <strong>P. C. M. Flores</strong>, S. Carlström, S. Patchkovskii, M. Ivanov, A. F. Ordonez, O. Smirnova
+  </div>
+  <div>
+    <em>Phys. Rev. A</em> <strong>114</strong>, 013110 (2026)
+    &nbsp;·&nbsp;
+    <a href="https://journals.aps.org/pra/abstract/10.1103/cqqs-77rg" target="_blank" rel="noopener" style="color:var(--global-theme-color, #b509ac); font-weight:600;">Read the paper &rarr;</a>
+  </div>
+  <div style="margin-top:0.5rem; padding-top:0.5rem; border-top:1px solid var(--global-divider-color, #dee2e6);">
+    <div style="font-size:0.65rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--global-theme-color, #b509ac); font-weight:600; margin-bottom:0.1rem;">
+      Key insights
+    </div>
+    <ul style="margin:0; padding-left:1.1rem;">
+      <li>Spin- and enantio-sensitive observables in one-photon ionization of randomly oriented chiral molecules arise purely from the electric-dipole interaction.</li>
+      <li>They are governed by the geometric properties of the photoionization dipoles in real space and in spin space.</li>
+      <li>All allowed spin- and momentum-resolved observables reduce to moments of three pseudovectors, emphasizing their fundamental geometric origin and the universality of the mechanism identified here.</li>
+    </ul>
+  </div>
+</div>
+
 We consider one-photon ionization of randomly oriented chiral molecules via circularly polarized light. The light field is described as  
 $$
 \begin{align}
