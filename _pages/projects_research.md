@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /research/
-description:
+description: collection of research projects as well as summary
 nav: true
 nav_order: 4
 display_categories:
@@ -25,18 +25,14 @@ toc:
 
     <section class="research-section">
 
-      <!-- Category title + collapsible description only -->
-      <details class="research-description-dropdown" {% if forloop.first %}open{% endif %}>
-        <summary>
-          <h2 id="{{ category_slug }}" class="category">{{ category }}</h2>
-        </summary>
+      <!-- Category title (always visible); collapsible parts live inside the description file -->
+      <h2 id="{{ category_slug }}" class="category">{{ category }}</h2>
 
-        <div class="research-category-description">
-          {% include {{ description_file }} %}
-        </div>
-      </details>
+      <div class="research-category-description">
+        {% include {{ description_file }} %}
+      </div>
 
-      <!-- Project cards stay visible regardless of dropdown state -->
+      <!-- Project cards -->
       {% assign categorized_projects = site.projects | where: "category", category %}
       {% assign sorted_projects = categorized_projects | sort: "importance" %}
 
@@ -89,17 +85,12 @@ toc:
     scroll-margin-top: 90px;
   }
 
-  .research-description-dropdown > summary {
-    cursor: pointer;
-    margin-bottom: 1rem;
-  }
-
-  .research-description-dropdown > summary .category {
-    display: inline;
-  }
-
   .research-category-description {
     margin: 1rem 0 2rem;
+  }
+
+  .research-subsection > summary {
+    cursor: pointer;
   }
 
   .research-subheading {

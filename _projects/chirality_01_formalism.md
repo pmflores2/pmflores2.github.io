@@ -18,13 +18,13 @@ $$
 
 <div class="paper-highlight" style="margin:1rem 0; padding:0.6rem 0.9rem; border:1px solid var(--global-divider-color, #dee2e6); border-left:4px solid var(--global-theme-color, #b509ac); border-radius:0.4rem; background:var(--global-card-bg-color, rgba(128,128,128,0.06)); font-size:0.85rem; line-height:1.4;">
   <div style="font-size:0.65rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--global-theme-color, #b509ac); font-weight:600; margin-bottom:0.15rem;">
-    This post describes the paper
+   This post describes the paper
   </div>
   <div style="font-size:0.95rem; font-weight:600; line-height:1.3; margin-bottom:0.2rem;">
     Geometric mechanisms enabling spin- and enantio-sensitive observables in one-photon ionization of chiral molecules
   </div>
   <div style="margin-bottom:0.15rem;">
-    <strong>P. C. M. Flores</strong>, S. Carlström, S. Patchkovskii, M. Ivanov, A. F. Ordonez, O. Smirnova
+    <u>P. C. M. Flores</u>, S. Carlström, S. Patchkovskii, M. Ivanov, A. F. Ordonez, O. Smirnova
   </div>
   <div>
     <em>Phys. Rev. A</em> <strong>114</strong>, 013110 (2026)

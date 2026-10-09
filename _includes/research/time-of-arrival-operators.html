@@ -1,64 +1,85 @@
-<div class="h3 research-subheading" role="heading" aria-level="3">Motivation:</div>
+<style>
+  .research-box {
+    margin: 0.5rem 0 1.25rem;
+    padding: 0.9rem 1.25rem;
+    border: 1px solid var(--global-divider-color, #dee2e6);
+    border-radius: 0.5rem;
+    background: var(--global-card-bg-color, rgba(128, 128, 128, 0.06));
+  }
+  .research-box > p:last-child {
+    margin-bottom: 0;
+  }
+</style>
 
 <p>
-  Classical mechanics treats time as a parameter that marks the evolution of a system, a label with respect to which change is described. It is the variable 't' that we use in Newton's equation of motion to describe the change in a particle's position, and in Maxwell's equations to describe the evolution of electromagnetic fields. While the concept of time as a parameter in classical mechanics is largely uncontroversial, it carries with it several fundamental questions, such as the apparent asymmetry in the direction of time and the logical inconsistencies associated with traveling backwards in time. The former is particularly intriguing because the fundamental equations of classical mechanics are generally invariant under time reversal, whereas our everyday experience distinguishes a definite direction of time. The discovery of quantum mechanics has introduced yet another fundamental difficulty concerning the role of time, commonly referred to as the quantum time problem (QTP).
+  Compilation of my work from Bachelor to PhD at the <a href="https://upd.edu.ph/">University of the Philippines Diliman</a> in the Theoretical Physics Group with Dr. Eric Galapon. My PhD studies was supported by the <a href="https://www.sei.dost.gov.ph/">Department of Science and Technology - Science Education Institute</a> through the <a href="https://asthrdp.science-scholarships.ph/">ASTHRDP-NRC</a> graduate scholarship program.
 </p>
 
-<p>
-  A simple example that illustrates the QTP is to ask: when does a particle arrive at a particular location? In classical mechanics, this question can be answered by inverting the particle's equation of motion. For instance, a freely moving particle with constant velocity arrives at a given location after a time equal to the distance traveled divided by its velocity. At first glance, the problem appears straightforward. However, quantum mechanics offers no universally accepted prescription for answering the same question. Unlike a classical particle, a quantum particle is described by a wavefunction that can be spatially delocalized, making it impossible, in general, to assign a definite trajectory and consequently a unique arrival time. Instead, one expects the possible arrival times to be described probabilistically.
-</p>
 
-<p>
-  The difficulty becomes more apparent when we consider the fundamentally different roles played by time in classical and quantum mechanics. In the standard formulation of quantum mechanics, time remains an external parameter that describes the evolution of a quantum state, rather than an observable represented by an operator. This is in contrast to physical quantities such as position, momentum, and energy, which are represented by operators whose measurement outcomes are governed by the postulates of quantum mechanics. Yet classical intuition tells us that time can certainly be measured using a clock. If the time at which a quantum particle arrives at a particular location is a measurable physical quantity, how should we describe its possible measurement outcomes and their corresponding probabilities? More importantly, can we construct a quantum mechanical operator that represents the time of arrival?
-</p>
+<details class="research-subsection">
+  <summary class="h5 research-subheading" style="cursor:pointer;">Motivation:</summary>
 
-<p>
-  This project (my Bachelor to PhD work at the University of the Philippines Diliman, with Eric Galapon)
-  builds <strong>time-of-arrival (TOA) operators</strong>: we take the classical formula for when a
-  particle reaches a point and turn it into a quantum operator, then ask what it predicts. Two
-  questions drove most of the work: (i) Do quantum objects fall like classical ones? and (ii) How long does quantum tunneling take? 
-</p>
+  <div class="research-box">
 
-<div class="h3 research-subheading" role="heading" aria-level="3">Publications</div>
+  <p>
+    <strong>Classical mechanics treats time as a parameter that marks the evolution of a system</strong>, a label with respect to which change is described. It is the variable 't' that we use in Newton's equation of motion to describe the change in a particle's position, and in Maxwell's equations to describe the evolution of electromagnetic fields. While the concept of time as a parameter in classical mechanics is largely uncontroversial, it carries with it several fundamental questions, such as the apparent <strong>asymmetry in the direction of time</strong> and the <strong>logical inconsistencies associated with traveling backwards in time</strong>. The former is particularly intriguing because the fundamental equations of classical mechanics are generally invariant under time reversal, whereas our everyday experience distinguishes a definite direction of time. <strong>The discovery of quantum mechanics has introduced yet another fundamental difficulty concerning the role of time, commonly referred to as the quantum time problem (QTP).</strong>
+  </p>
 
-<ul>
-  <li>
-    <u>P. C. M. Flores</u>, D. A. Pablico, E. A. Galapon,
-    <em>Instantaneous tunneling time within the theory of time-of-arrival operators</em>,
-    <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.062223">Phys. Rev. A 110, 062223 (2024)</a>.
-  </li>
-  <li>
-    <u>P. C. M. Flores</u>, D. A. Pablico, E. A. Galapon,
-    <em>Partial and full tunneling processes across potential barriers</em>,
-    <a href="https://iopscience.iop.org/article/10.1209/0295-5075/ad2e7a">EPL 145, 65002 (2024)</a>.
-  </li>
-  <li>
-    <u>P. C. M. Flores</u>, E. A. Galapon,
-    <em>Quantized relativistic time-of-arrival operators for spin-0 particles and the quantum
-    tunneling time problem</em>,
-    <a href="https://doi.org/10.1140/epjp/s13360-023-03952-z">Eur. Phys. J. Plus 138, 1 (2023)</a>.
-  </li>
-  <li>
-    <u>P. C. M. Flores</u>, E. A. Galapon,
-    <em>Instantaneous tunneling of relativistic massive spin-0 particles</em>,
-    <a href="https://iopscience.iop.org/article/10.1209/0295-5075/acad9a">EPL 141, 10001 (2023)</a>.
-  </li>
-  <li>
-    <u>P. C. M. Flores</u>, E. A. Galapon,
-    <em>Relativistic free-motion time-of-arrival operator for massive spin-0 particles with
-    positive energy</em>,
-    <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.062208">Phys. Rev. A 105, 062208 (2022)</a>.
-  </li>
-  <li>
-    <u>P. C. M. Flores</u>, E. A. Galapon,
-    <em>Quantum free-fall motion and quantum violation of the weak equivalence principle</em>,
-    <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.99.042113">Phys. Rev. A 99, 042113 (2019)</a>.
-  </li>
-  <li>
-    <u>P. C. M. Flores</u>, R. C. F. Caballar, E. A. Galapon,
-    <em>Synchronizing quantum and classical clocks made of quantum particles</em>,
-    <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.94.032123">Phys. Rev. A 94, 032123 (2016)</a>.
-  </li>
-</ul>
+  <p>
+    A simple example that illustrates the QTP is to ask: <strong>when does a particle arrive at a particular location?</strong> In classical mechanics, this question can be answered by inverting the particle's equation of motion. For instance, a freely moving particle with constant velocity arrives at a given location after a time equal to the distance traveled divided by its velocity. At first glance, the problem appears straightforward. However, <strong>quantum mechanics offers no universally accepted prescription for answering the same question</strong>. Unlike a classical particle, a <strong>quantum particle is described by a wavefunction that can be spatially delocalized, making it impossible, in general, to assign a definite trajectory and consequently a unique arrival time</strong>. Instead, one expects the possible arrival times to be described probabilistically.
+  </p>
+
+  <p>
+    The difficulty becomes more apparent when we consider the fundamentally different roles played by time in classical and quantum mechanics. In the standard formulation of quantum mechanics, <strong>time remains an external parameter that describes the evolution of a quantum state, rather than an observable represented by an operator</strong>. This is in contrast to physical quantities such as position, momentum, and energy, which are represented by operators whose measurement outcomes are governed by the postulates of quantum mechanics. Yet <strong>classical intuition tells us that time can certainly be measured using a clock</strong>. If the time at which a quantum particle arrives at a particular location is a measurable physical quantity, <strong>how should we describe its possible measurement outcomes and their corresponding probabilities?</strong> More importantly, can we construct a quantum mechanical operator that represents the time of arrival?
+  </p>
+
+  </div>
+  
+</details>
+
+<details class="research-subsection">
+  <summary class="h5 research-subheading" style="cursor:pointer;">Publications:</summary>
+
+  <ul>
+    <li>
+      <u>P. C. M. Flores</u>, D. A. Pablico, E. A. Galapon,
+      <em>Instantaneous tunneling time within the theory of time-of-arrival operators</em>,
+      <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.062223">Phys. Rev. A 110, 062223 (2024)</a>.
+    </li>
+    <li>
+      <u>P. C. M. Flores</u>, D. A. Pablico, E. A. Galapon,
+      <em>Partial and full tunneling processes across potential barriers</em>,
+      <a href="https://iopscience.iop.org/article/10.1209/0295-5075/ad2e7a">EPL 145, 65002 (2024)</a>.
+    </li>
+    <li>
+      <u>P. C. M. Flores</u>, E. A. Galapon,
+      <em>Quantized relativistic time-of-arrival operators for spin-0 particles and the quantum
+      tunneling time problem</em>,
+      <a href="https://doi.org/10.1140/epjp/s13360-023-03952-z">Eur. Phys. J. Plus 138, 1 (2023)</a>.
+    </li>
+    <li>
+      <u>P. C. M. Flores</u>, E. A. Galapon,
+      <em>Instantaneous tunneling of relativistic massive spin-0 particles</em>,
+      <a href="https://iopscience.iop.org/article/10.1209/0295-5075/acad9a">EPL 141, 10001 (2023)</a>.
+    </li>
+    <li>
+      <u>P. C. M. Flores</u>, E. A. Galapon,
+      <em>Relativistic free-motion time-of-arrival operator for massive spin-0 particles with
+      positive energy</em>,
+      <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.062208">Phys. Rev. A 105, 062208 (2022)</a>.
+    </li>
+    <li>
+      <u>P. C. M. Flores</u>, E. A. Galapon,
+      <em>Quantum free-fall motion and quantum violation of the weak equivalence principle</em>,
+      <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.99.042113">Phys. Rev. A 99, 042113 (2019)</a>.
+    </li>
+    <li>
+      <u>P. C. M. Flores</u>, R. C. F. Caballar, E. A. Galapon,
+      <em>Synchronizing quantum and classical clocks made of quantum particles</em>,
+      <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.94.032123">Phys. Rev. A 94, 032123 (2016)</a>.
+    </li>
+  </ul>
+
+</details>
 
 
