@@ -79,8 +79,10 @@ category: time-of-arrival operators
   </div> -->
 </div>
 
+<div markdown="1" style="border: 1px solid var(--global-divider-color); border-left: 4px solid var(--global-theme-color); border-radius: 6px; background-color: var(--global-card-bg-color); padding: 0.8rem 1.2rem; margin: 1rem 0;">
 <div style="text-align: center; padding: 4rem 1rem;">
   <h2>Page under construction</h2>
   <img src="{{ '/assets/img/construction.png' | relative_url }}" alt="Cat building a website" style="display: block; width: 100%; max-width: 550px; height: auto; margin: 1.5rem auto; border-radius: 8px;">
   <p>Content will be added soon.</p>
+</div>
 </div>
