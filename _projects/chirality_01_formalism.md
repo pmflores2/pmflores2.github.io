@@ -244,9 +244,8 @@ $$
 \begin{equation}		
     |\psi\rangle=|\psi_{o}\rangle+
 		\sum_{I,\mu^L}
-		%\int\mathrm{d}k
 		\int\mathrm{d}\Theta_k\, c_{I,\fullvec{k},\mu^L}
-		|I\Psi_{I,\fullvec{k}^M,\mu^L}^{(-)}\rangle , %|\chi_{\mu^M}\rangle ,
+		|I\Psi_{I,\fullvec{k}^M,\mu^L}^{(-)}\rangle , 
     \label{eq:psi}
 \end{equation}
 $$
