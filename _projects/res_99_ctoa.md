@@ -29,7 +29,7 @@ I was able to publish a paper on [Physical Review A](https://journals.aps.org/pr
     </div>
 </div>
 <div class="caption">
-    Image taken from <a href="https://www.up.edu.ph/up-diliman-students-acclaimed-in-bpi-dost-science-awards-2017/">here</a>.
+    Image taken from <a href="https://up.edu.ph/up-diliman-students-acclaimed-in-bpi-dost-science-awards-2017/">here</a>.
 </div>
 
 

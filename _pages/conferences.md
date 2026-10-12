@@ -121,7 +121,7 @@ nav_order: 3
       <span class="conf-date">Jun 7 – 12</span>
       <div class="conf-body">
         <span class="conf-badge poster">Poster</span>
-        <a class="conf-title" href="https://www.grc.org/multiphoton-processes-conference/2026/">Multiphoton Processes (Gordon Research Conference)</a>
+        <a class="conf-title" href="https://www.grc.org/multiphoton-processes-conference/2026">Multiphoton Processes (Gordon Research Conference)</a>
         <div class="conf-venue">Stonehill College, Easton, Massachusetts, USA 🇺🇸</div>
       </div>
     </li>
@@ -191,7 +191,7 @@ nav_order: 3
       <span class="conf-date">May 26 – 30</span>
       <div class="conf-body">
         <span class="conf-badge talk">Talk</span>
-        <a class="conf-title" href="https://lpage.ch.rachip.com/light-matter-interaction-focusing-on-polariton-chemistry-and-physics/">Light-Matter Interaction: Focusing on Polariton Chemistry and Physics</a>
+        <a class="conf-title" href="https://iastc.technion.ac.il/light-matter-interaction-focusing-on-polariton-chemistry-and-physics/">Light-Matter Interaction: Focusing on Polariton Chemistry and Physics</a>
         <div class="conf-venue">Cultural Centre "Jules Pascin" – the Synagogue, Vidin, Bulgaria 🇧🇬</div>
       </div>
     </li>
@@ -330,7 +330,7 @@ nav_order: 3
       <span class="conf-date">Jan 28 – 31</span>
       <div class="conf-body">
         <span class="conf-badge poster">Poster</span>
-        <a class="conf-title" href="https://conferences.weizmann.ac.il/TFQM19/time-and-fundamentals-quantum-mechanics">Time and Fundamentals of Quantum Mechanics</a>
+        <a class="conf-title" href="https://conferences.weizmann.ac.il/TFQM19/">Time and Fundamentals of Quantum Mechanics</a>
         <div class="conf-venue">David Lopatie Conference Centre, Weizmann Institute of Science, Rehovot, Israel 🇮🇱</div>
       </div>
     </li>

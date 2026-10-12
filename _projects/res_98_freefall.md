@@ -18,7 +18,7 @@ where $$ g $$ is the acceleration due to gravity. The toa $$t_{-}$$ indicates th
 
 Various TOA operators were constructed using supraquantization, and quantization by Weyl, Born-Jordan, and simple symmetric ordering rules. The expectation value of the TOA operators were explicitly shown to be equal to the classical time of arrival plus mass-dependent quantum correction terms, implying incompatibility of the WEP. The full extent of the violation of the WEP was shown via the mass dependence of the TOA distribution.
 
-I was able to publish a paper on [Physical Review A](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.99.042113) and two conference proceedings from this thesis. I also presented part of this thesis during the poster session of the conference [Time and Fundamentals of Quantum Mechanics](http://www.weizmann.ac.il/conferences/TFQM19/) which was held at the Weizmann Institute of Science.
+I was able to publish a paper on [Physical Review A](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.99.042113) and two conference proceedings from this thesis. I also presented part of this thesis during the poster session of the conference [Time and Fundamentals of Quantum Mechanics](https://conferences.weizmann.ac.il/TFQM19/) which was held at the Weizmann Institute of Science.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

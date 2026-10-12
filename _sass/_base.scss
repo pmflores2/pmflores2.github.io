@@ -1414,3 +1414,14 @@ ninja-keys::part(ninja-input-wrapper) {
     display: none;
   }
 }
+
+/* Center research tables */
+.research-centered-table {
+  overflow-x: auto;
+}
+
+.research-centered-table table {
+  width: max-content !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
