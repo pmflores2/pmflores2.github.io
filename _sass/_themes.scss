@@ -1,6 +1,10 @@
 /*******************************************************************************
  * Themes
+ * Colors come from _color-schemes.scss; pick the scheme with $color-scheme
+ * in _variables.scss.
  ******************************************************************************/
+
+@import "color-schemes";
 
 :root {
   // --global-bg-color: #{$white-color};
@@ -12,31 +16,8 @@
   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
   --global-back-to-top-text-color: #{$white-color};
 
-  // LIGHT MODE — white page with a teal navigation bar.
-  --global-bg-color: #{$palette-white};
-  --global-text-color: #{$palette-deep-blue};
-  --global-text-color-light: #5B6A7A;
-  --global-theme-color: #{$palette-slate};
-  --global-hover-color: #{$palette-teal};
-  --global-hover-text-color: #{$palette-navy};
-  --global-divider-color: rgba(58, 80, 107, 0.22);
-  --global-highlight-color: #{$palette-teal};
-  --global-card-bg-color: #F7FAFC;
-  --global-code-bg-color: rgba(91, 192, 190, 0.12);
-  --global-footer-bg-color: #ECF2F7;
-  --global-footer-text-color: #{$palette-deep-blue};
-  --global-footer-link-color: #{$palette-slate};
-  --global-newsletter-bg-color: #F7FAFC;
-  --global-newsletter-text-color: #{$palette-deep-blue};
-
-  // Navbar color is independent of the page background.
-  --global-navbar-bg-color: #{$palette-teal};
-  --global-navbar-text-color: #{$palette-navy};
-  --global-navbar-hover-color: #{$palette-white};
-  --global-navbar-active-color: #{$palette-navy};
-  --global-navbar-active-underline: #{$palette-white};
-  --global-navbar-border-color: #{$palette-slate};
-  --global-navbar-dropdown-hover-bg-color: rgba(11, 19, 43, 0.08);
+  // LIGHT MODE — colors of the selected scheme (see _color-schemes.scss)
+  @include scheme-vars(map-get(map-get($color-schemes, $color-scheme), light));
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -95,31 +76,8 @@ html[data-theme="dark"] {
   --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
   --global-back-to-top-text-color: #{$black-color};
 
-  // DARK MODE — deep navy page with a darker blue navigation bar.
-  --global-bg-color: #{$palette-navy};
-  --global-text-color: #{$palette-white};
-  --global-text-color-light: #C7D5E1;
-  --global-theme-color: #{$palette-teal};
-  --global-hover-color: #{$palette-white};
-  --global-hover-text-color: #{$palette-navy};
-  --global-divider-color: rgba(91, 192, 190, 0.28);
-  --global-highlight-color: #{$palette-teal};
-  --global-card-bg-color: #{$palette-deep-blue};
-  --global-code-bg-color: #{$palette-deep-blue};
-  --global-footer-bg-color: #091024;
-  --global-footer-text-color: #{$palette-white};
-  --global-footer-link-color: #{$palette-teal};
-  --global-newsletter-bg-color: #{$palette-deep-blue};
-  --global-newsletter-text-color: #{$palette-white};
-
-  // Navbar color is independent of the page background.
-  --global-navbar-bg-color: #{$palette-deep-blue};
-  --global-navbar-text-color: #{$palette-white};
-  --global-navbar-hover-color: #{$palette-teal};
-  --global-navbar-active-color: #{$palette-white};
-  --global-navbar-active-underline: #{$palette-teal};
-  --global-navbar-border-color: #{$palette-slate};
-  --global-navbar-dropdown-hover-bg-color: rgba(255, 255, 255, 0.06);
+  // DARK MODE — colors of the selected scheme (see _color-schemes.scss)
+  @include scheme-vars(map-get(map-get($color-schemes, $color-scheme), dark));
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;

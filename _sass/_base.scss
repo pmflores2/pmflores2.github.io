@@ -286,6 +286,15 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: var(--global-navbar-text-color);
+
+    // The global `strong { color: var(--global-text-color) }` rule would
+    // otherwise turn the bold part of the name into page-text color,
+    // which is the same as the navbar color in some schemes.
+    strong,
+    b,
+    .font-weight-bold {
+      color: inherit;
+    }
   }
 
   .navbar-nav .nav-item .nav-link {

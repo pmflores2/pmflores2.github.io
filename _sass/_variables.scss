@@ -50,6 +50,9 @@ $palette-slate: #3A506B !default;
 $palette-teal: #5BC0BE !default;
 $palette-white: #FFFFFF !default;
 
+// >>> COLOR SCHEME SWITCH: choose 1-7 (see _color-schemes.scss) <<<
+$color-scheme: 5 !default;
+
 // Theme colors
 
 $code-bg-color-light: rgba($purple-color, 0.05);

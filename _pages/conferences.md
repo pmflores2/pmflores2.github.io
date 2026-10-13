@@ -21,7 +21,7 @@ nav_order: 3
     font-size: .85rem; cursor: pointer; transition: all .15s;
   }
   .conf-chip:hover, .conf-ctrl:hover { border-color: var(--global-theme-color); color: var(--global-theme-color); }
-  .conf-chip.active { background: var(--global-theme-color); border-color: var(--global-theme-color); color: #fff; }
+  .conf-chip.active { background: var(--global-theme-color); border-color: var(--global-theme-color); color: var(--global-bg-color); }
   .conf-ctrl { border-radius: 6px; }
 
   details.conf-year {
@@ -80,9 +80,9 @@ nav_order: 3
     padding: .1rem .5rem; margin-right: .4rem; border-radius: 4px;
     vertical-align: middle; border: 1px solid currentColor;
   }
-  .conf-badge.talk { color: #2e7d6b; }
-  .conf-badge.poster { color: #c2701a; }
-  .conf-badge.participant { color: #6b6bb5; }
+  .conf-badge.talk { color: var(--global-tag-talk-color); }
+  .conf-badge.poster { color: var(--global-tag-poster-color); }
+  .conf-badge.participant { color: var(--global-tag-participant-color); }
   .conf-badge.virtual { color: var(--global-text-color-light); margin-left: .3rem; margin-right: 0; }
 
   @media (max-width: 576px) {

@@ -1,0 +1,230 @@
+/*******************************************************************************
+ * Color schemes  (7 schemes x light + dark)
+ *
+ * HOW TO SWITCH:  change ONE number in _variables.scss
+ *
+ *     $color-scheme: 3 !default;      // pick 1 ... 7
+ *
+ *   1 = test1.png  Brick & Sea Glass     5 = test5.png  Charcoal & Gold
+ *   2 = test2.png  Steel & Ember         6 = test6.png  Crimson & Lilac
+ *   3 = test3.png  Navy & Teal           7 = test7.png  Aqua & Amber
+ *   4 = test4.png  Mint & Aubergine
+ *
+ * In every scheme the navbar color is different from the page background.
+ *
+ * LIVE PREVIEW (no rebuild): every scheme is also compiled in, so in the
+ * browser console you can run
+ *     document.documentElement.setAttribute('data-scheme', 5)
+ * and remove it again with
+ *     document.documentElement.removeAttribute('data-scheme')
+ ******************************************************************************/
+
+$color-scheme: 3 !default;
+
+// Keys used by each light / dark map
+//   tag-talk tag-poster tag-participant: badge colors (optional)
+//   required: bg text text-light theme hover hover-text highlight card
+//             footer-bg nav-bg nav-text nav-hover nav-active nav-border
+//   optional (derived if omitted): divider code-bg footer-text footer-link
+//             newsletter-bg newsletter-text nav-underline nav-dropdown-hover
+
+$color-schemes: (
+  // ---------------------------------------------------------------- 1
+  1: (
+    light: (
+      bg: #EFE6DD, text: #231F20, text-light: #5E5655,
+      theme: #BB4430, hover: #7A2415, hover-text: #EFE6DD, highlight: #BB4430,
+      card: #F8F3EC, footer-bg: #E2D6C8,
+      nav-bg: #7EBDC2, nav-text: #231F20, nav-hover: #7A2415,
+      nav-active: #231F20, nav-underline: #BB4430, nav-border: #BB4430,
+      tag-talk: #BB4430, tag-poster: #3A7F86, tag-participant: #7F6A1F
+    ),
+    dark: (
+      bg: #231F20, text: #EFE6DD, text-light: #C9BFB4,
+      theme: #7EBDC2, hover: #F3DFA2, hover-text: #231F20, highlight: #F3DFA2,
+      card: #2F2A2B, footer-bg: #1A1718,
+      nav-bg: #BB4430, nav-text: #EFE6DD, nav-hover: #F3DFA2,
+      nav-active: #FFFFFF, nav-underline: #F3DFA2, nav-border: #7EBDC2,
+      tag-talk: #7EBDC2, tag-poster: #F3DFA2, tag-participant: #E67A66
+    )
+  ),
+  // ---------------------------------------------------------------- 2
+  2: (
+    light: (
+      bg: #FEFDFF, text: #22303A, text-light: #5B6770,
+      theme: #B02E0C, hover: #EB4511, hover-text: #FEFDFF, highlight: #EB4511,
+      card: #F5F4F0, footer-bg: #E6E4DE,
+      nav-bg: #8EB1C7, nav-text: #14202A, nav-hover: #8A2208,
+      nav-active: #14202A, nav-underline: #B02E0C, nav-border: #B02E0C,
+      tag-talk: #B02E0C, tag-poster: #3F6E8C, tag-participant: #6B6A60
+    ),
+    dark: (
+      bg: #1B242B, text: #FEFDFF, text-light: #C1BFB5,
+      theme: #8EB1C7, hover: #EB4511, hover-text: #FEFDFF, highlight: #EB4511,
+      card: #25313A, footer-bg: #141B21,
+      nav-bg: #B02E0C, nav-text: #FEFDFF, nav-hover: #C1BFB5,
+      nav-active: #FFFFFF, nav-underline: #8EB1C7, nav-border: #EB4511,
+      tag-talk: #8EB1C7, tag-poster: #F2693F, tag-participant: #C1BFB5
+    )
+  ),
+  // ---------------------------------------------------------------- 3
+  // (this is the navy / teal scheme you already had)
+  3: (
+    light: (
+      bg: #FFFFFF, text: #1C2541, text-light: #5B6A7A,
+      theme: #3A506B, hover: #5BC0BE, hover-text: #0B132B, highlight: #5BC0BE,
+      card: #F7FAFC, footer-bg: #ECF2F7,
+      nav-bg: #5BC0BE, nav-text: #0B132B, nav-hover: #FFFFFF,
+      nav-active: #0B132B, nav-underline: #FFFFFF, nav-border: #3A506B,
+      tag-talk: #3A506B, tag-poster: #2A8584, tag-participant: #5B6A7A,
+      divider: rgba(58, 80, 107, 0.22), code-bg: rgba(91, 192, 190, 0.12)
+    ),
+    dark: (
+      bg: #0B132B, text: #FFFFFF, text-light: #C7D5E1,
+      theme: #5BC0BE, hover: #FFFFFF, hover-text: #0B132B, highlight: #5BC0BE,
+      card: #1C2541, footer-bg: #091024,
+      nav-bg: #1C2541, nav-text: #FFFFFF, nav-hover: #5BC0BE,
+      nav-active: #FFFFFF, nav-underline: #5BC0BE, nav-border: #3A506B,
+      tag-talk: #5BC0BE, tag-poster: #9FB6D1, tag-participant: #C7D5E1,
+      divider: rgba(91, 192, 190, 0.28), code-bg: #1C2541
+    )
+  ),
+  // ---------------------------------------------------------------- 4
+  4: (
+    light: (
+      bg: #F0F7F4, text: #32292F, text-light: #705D56,
+      theme: #2F6B70, hover: #705D56, hover-text: #F0F7F4, highlight: #70ABAF,
+      card: #FFFFFF, footer-bg: #DDEBE6,
+      nav-bg: #99E1D9, nav-text: #32292F, nav-hover: #705D56,
+      nav-active: #32292F, nav-underline: #705D56, nav-border: #70ABAF,
+      tag-talk: #2F6B70, tag-poster: #705D56, tag-participant: #5C4F58
+    ),
+    dark: (
+      bg: #32292F, text: #F0F7F4, text-light: #C9BDB8,
+      theme: #99E1D9, hover: #F0F7F4, hover-text: #32292F, highlight: #99E1D9,
+      card: #3D333A, footer-bg: #261F24,
+      nav-bg: #705D56, nav-text: #F0F7F4, nav-hover: #99E1D9,
+      nav-active: #FFFFFF, nav-underline: #99E1D9, nav-border: #70ABAF,
+      tag-talk: #99E1D9, tag-poster: #D1AFA3, tag-participant: #70ABAF
+    )
+  ),
+  // ---------------------------------------------------------------- 5
+  5: (
+    light: (
+      bg: #FFFFFF, text: #242F40, text-light: #5C6470,
+      theme: #8F6F12, hover: #6F5409, hover-text: #FFFFFF, highlight: #CCA43B,
+      card: #F5F5F5, footer-bg: #E5E5E5,
+      nav-bg: #242F40, nav-text: #FFFFFF, nav-hover: #CCA43B,
+      nav-active: #FFFFFF, nav-underline: #CCA43B, nav-border: #CCA43B,
+      tag-talk: #8F6F12, tag-poster: #242F40, tag-participant: #6B6B6B
+    ),
+    dark: (
+      bg: #363636, text: #E5E5E5, text-light: #B5B5B5,
+      theme: #CCA43B, hover: #FFFFFF, hover-text: #363636, highlight: #CCA43B,
+      card: #404040, footer-bg: #2B2B2B,
+      nav-bg: #242F40, nav-text: #E5E5E5, nav-hover: #CCA43B,
+      nav-active: #FFFFFF, nav-underline: #CCA43B, nav-border: #CCA43B,
+      tag-talk: #CCA43B, tag-poster: #9DB2D1, tag-participant: #B5B5B5
+    )
+  ),
+  // ---------------------------------------------------------------- 6
+  6: (
+    light: (
+      bg: #DDF0FF, text: #223127, text-light: #4D5D52,
+      theme: #9C0D38, hover: #6F0A28, hover-text: #DDF0FF, highlight: #CE5374,
+      card: #F2F9FF, footer-bg: #C9E2F5,
+      nav-bg: #DBBBF5, nav-text: #223127, nav-hover: #9C0D38,
+      nav-active: #223127, nav-underline: #9C0D38, nav-border: #9C0D38,
+      tag-talk: #9C0D38, tag-poster: #6F4C9A, tag-participant: #3D5445
+    ),
+    dark: (
+      bg: #223127, text: #DDF0FF, text-light: #B9CCC0,
+      theme: #DBBBF5, hover: #CE5374, hover-text: #DDF0FF, highlight: #CE5374,
+      card: #2C3F32, footer-bg: #18231C,
+      nav-bg: #9C0D38, nav-text: #DDF0FF, nav-hover: #DBBBF5,
+      nav-active: #FFFFFF, nav-underline: #DBBBF5, nav-border: #CE5374,
+      tag-talk: #DBBBF5, tag-poster: #E8809E, tag-participant: #9DC2AE
+    )
+  ),
+  // ---------------------------------------------------------------- 7
+  7: (
+    light: (
+      bg: #F2FCFC, text: #2F4858, text-light: #5A7080,
+      theme: #33658A, hover: #C84F0F, hover-text: #FFFFFF, highlight: #F26419,
+      card: #FFFFFF, footer-bg: #D9F3F4,
+      nav-bg: #55DDE0, nav-text: #2F4858, nav-hover: #33658A,
+      nav-active: #2F4858, nav-underline: #F26419, nav-border: #2F4858,
+      tag-talk: #33658A, tag-poster: #C84F0F, tag-participant: #2A7B7E
+    ),
+    dark: (
+      bg: #2F4858, text: #F2FCFC, text-light: #BFD0DA,
+      theme: #55DDE0, hover: #F6AE2D, hover-text: #2F4858, highlight: #F6AE2D,
+      card: #385468, footer-bg: #243844,
+      nav-bg: #33658A, nav-text: #FFFFFF, nav-hover: #55DDE0,
+      nav-active: #FFFFFF, nav-underline: #F6AE2D, nav-border: #F6AE2D,
+      tag-talk: #55DDE0, tag-poster: #F6AE2D, tag-participant: #C8D9E3
+    )
+  )
+);
+
+// ---------------------------------------------------------------------------
+// Helpers
+// ---------------------------------------------------------------------------
+@function cs-get($map, $key, $fallback: null) {
+  @if map-has-key($map, $key) {
+    @return map-get($map, $key);
+  }
+  @return $fallback;
+}
+
+// Writes all the --global-* color variables for one light or dark map.
+@mixin scheme-vars($m) {
+  $bg: map-get($m, bg);
+  $text: map-get($m, text);
+  $theme: map-get($m, theme);
+  $card: map-get($m, card);
+  $nav-text: map-get($m, nav-text);
+  $nav-hover: map-get($m, nav-hover);
+
+  --global-bg-color: #{$bg};
+  --global-text-color: #{$text};
+  --global-text-color-light: #{map-get($m, text-light)};
+  --global-theme-color: #{$theme};
+  --global-hover-color: #{map-get($m, hover)};
+  --global-hover-text-color: #{map-get($m, hover-text)};
+  --global-divider-color: #{cs-get($m, divider, rgba($text, 0.2))};
+  --global-highlight-color: #{map-get($m, highlight)};
+  --global-card-bg-color: #{$card};
+  --global-code-bg-color: #{cs-get($m, code-bg, rgba(map-get($m, highlight), 0.14))};
+  --global-footer-bg-color: #{map-get($m, footer-bg)};
+  --global-footer-text-color: #{cs-get($m, footer-text, $text)};
+  --global-footer-link-color: #{cs-get($m, footer-link, $theme)};
+  --global-newsletter-bg-color: #{cs-get($m, newsletter-bg, $card)};
+  --global-newsletter-text-color: #{cs-get($m, newsletter-text, $text)};
+
+  // Navbar color is independent of the page background.
+  --global-navbar-bg-color: #{map-get($m, nav-bg)};
+  --global-navbar-text-color: #{$nav-text};
+  --global-navbar-hover-color: #{$nav-hover};
+  --global-navbar-active-color: #{map-get($m, nav-active)};
+  --global-navbar-active-underline: #{cs-get($m, nav-underline, $nav-hover)};
+  --global-navbar-border-color: #{map-get($m, nav-border)};
+  // Small label colors (e.g. Talk / Poster / Participant badges)
+  --global-tag-talk-color: #{cs-get($m, tag-talk, $theme)};
+  --global-tag-poster-color: #{cs-get($m, tag-poster, map-get($m, highlight))};
+  --global-tag-participant-color: #{cs-get($m, tag-participant, map-get($m, text-light))};
+
+  --global-navbar-dropdown-hover-bg-color: #{cs-get($m, nav-dropdown-hover, rgba($nav-text, 0.08))};
+}
+
+// ---------------------------------------------------------------------------
+// Optional live preview: html[data-scheme="N"] overrides the compiled default.
+// ---------------------------------------------------------------------------
+@each $n, $modes in $color-schemes {
+  html[data-scheme="#{$n}"]:not([data-theme="dark"]) {
+    @include scheme-vars(map-get($modes, light));
+  }
+  html[data-scheme="#{$n}"][data-theme="dark"] {
+    @include scheme-vars(map-get($modes, dark));
+  }
+}

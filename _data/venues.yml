@@ -27,3 +27,7 @@
 "UP":
   url: https://www.up2024.org/
   color: "#2B333D"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#aa142d"
