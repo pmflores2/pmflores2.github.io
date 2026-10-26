@@ -1,10 +1,15 @@
+
 {% if site.enable_math %}
   {% unless page.pseudocode %}
     <!-- MathJax -->
     <script type="text/javascript">
       window.MathJax = {
+        loader: {
+          load: ['[tex]/physics'],
+        },
         tex: {
           tags: 'ams',
+          packages: {'[+]': ['physics']},
         },
       };
     </script>

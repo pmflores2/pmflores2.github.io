@@ -1437,3 +1437,13 @@ ninja-keys::part(ninja-input-wrapper) {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+
+/* Boxed content block used inside collapsible research sections */
+.research-box {
+  border: 1px solid var(--global-divider-color);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 6px;
+  background-color: var(--global-card-bg-color);
+  padding: 0.8rem 1.2rem;
+  margin: 1rem 0;
+}
