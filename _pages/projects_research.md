@@ -8,7 +8,7 @@ nav_order: 4
 display_categories:
   - chirality and spin-polarization in photoionization
   - time-of-arrival operators
-horizontal: false
+horizontal: true
 toc:
   sidebar: left
 ---

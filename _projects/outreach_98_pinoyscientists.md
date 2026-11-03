@@ -4,7 +4,7 @@ layout: page
 title: Pinoy Scientists
 description: spotlighting Pinoy scientists, one post at a time
 img: /assets/img/pinoy-scientists.jpg
-importance: 2
+importance: 98
 category: volunteer activities
 ---
 

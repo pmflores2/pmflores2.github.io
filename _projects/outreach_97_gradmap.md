@@ -4,7 +4,7 @@ layout: page
 title: GradMAP Philippines
 description: STEM mentorship network
 img: /assets/img/gradmap.jpg
-importance: 1
+importance: 97
 category: volunteer activities
 ---
 
